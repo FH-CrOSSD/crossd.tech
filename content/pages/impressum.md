@@ -9,8 +9,5 @@ blocks:
       alt: Impressum
     color: default
     _template: hero
-  - body: "# Impressum\t\t\t\t&#x9;\n\nLink zum Impressum der Fachhochschule St. Pölten: [https://www.fhstp.ac.at/de/impressum](https://www.fhstp.ac.at/de/impressum)\n\n&#x9;\t\t\t\t&#x9;\n&#x9;\t\t&#x9;\n"
-    color: default
-    _template: content
 ---
 
