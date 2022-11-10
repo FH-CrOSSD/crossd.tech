@@ -1,0 +1,35 @@
+{
+  "header": {
+    "icon": {
+      "color": "teal",
+      "style": "float",
+      "name": "cloud"
+    },
+    "color": "default",
+    "nav": [
+      {
+        "href": "",
+        "label": "Home"
+      },
+      {
+        "href": "impressum",
+        "label": "Impressum"
+      }
+    ]
+  },
+  "footer": {
+    "color": "default",
+    "social": {
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "github": "https://github.com/FH-CrOSSD"
+    }
+  },
+  "theme": {
+    "color": "blue",
+    "font": "sans",
+    "icon": "heroicon",
+    "darkMode": "system"
+  }
+}
