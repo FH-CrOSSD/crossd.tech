@@ -36,7 +36,7 @@ blocks:
           name: shield
         title: OSS-Gesundheit
         text: |+
-          * Quantitative und qualitative Metriken
+          * quantitative und qualitative Metriken
           * Crawling von Meta-Informationen (wie
             z. B. Contributors und Commits)
           * Analyse der Abhängigkeiten von
@@ -51,12 +51,11 @@ blocks:
           style: float
           name: code
         title: Ergebnisse
-        text: |+
+        text: |
           * Konzept zur Bewertung des
             Gesundheitszustands von OSS-Projekten
           * Plattform, die kontinuierliches
             Monitoring und Auswertung der Metriken eines Korpus von OSS-Projekten bietet
-
     color: tint
     _template: features
 ---
