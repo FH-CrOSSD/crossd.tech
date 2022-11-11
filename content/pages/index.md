@@ -36,7 +36,7 @@ blocks:
           name: shield
         title: OSS-Gesundheit
         text: |+
-          * Quantitative und qualitative Metriken
+          * quantitative und qualitative Metriken
           * Crawling von Meta-Informationen (wie
             z. B. Contributors und Commits)
           * Analyse der Abhängigkeiten von
