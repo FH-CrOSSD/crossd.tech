@@ -21,6 +21,7 @@ export const Section = ({ children, color = "", className = "" }) => {
       yellow:
         "text-white bg-yellow-500 bg-gradient-to-br from-yellow-500 to-yellow-600",
     },
+    white: "text-gray-800 dark:text-gray-50 bg-white dark:bg-gray-800"
   };
   const sectionColorCss =
     color === "primary"

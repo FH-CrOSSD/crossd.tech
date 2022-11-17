@@ -6,6 +6,11 @@ module.exports = {
       issuer: /\.[jt]sx?$/,
       use: ["@svgr/webpack"],
     });
+    config.watchOptions= {
+      ignored: /node_modules/,
+      aggregateTimeout: 200,
+      poll: 1000,
+  };
 
     return config;
   },

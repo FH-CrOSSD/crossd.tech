@@ -12,6 +12,10 @@
         "label": "Home"
       },
       {
+        "href": "team",
+        "label": "Team"
+      },
+      {
         "href": "impressum",
         "label": "Impressum"
       }
