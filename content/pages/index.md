@@ -42,17 +42,14 @@ blocks:
           color: red
           style: float
           name: shield
-        title: OSS-Gesundheit
-        text: |
-          * quantitative und qualitative Metriken
-          * Crawling von Meta-Informationen (wie
-            z. B. Contributors und Commits)
-          * Analyse der Abhängigkeiten von
-            anderen Softwareprojekten
-          * Nachhaltigkeit bzw. existierende
-            Finanzierung
-          * Einhaltung von
-            Security-Policys
+        title: OSS Health
+        text: |+
+          * Quantitative and qualitative metrics
+          * Crawling of meta-information (such as contributors and commits)
+          * Analysis of dependencies on other software projects
+          * Sustainability and/or existing funding
+          * Compliance with security policies
+
       - icon:
           color: blue
           style: float
