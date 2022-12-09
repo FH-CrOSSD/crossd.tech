@@ -21,11 +21,11 @@ blocks:
   - name: 'Dipl.-Ing. Dr. Lukas Daniel Klausner BSc '
     link: 'https://isf.fhstp.ac.at/team/lukas-daniel-klausner'
     text: >
-      Studierter Mathematiker, umfassendes Wissen zu Kombinatorik, Algorithmen
-      und Logik. Erfahrung mit Abstraktion und Modellierung. Vergleichbare
-      abstrahierende Tätigkeiten im von ihm geleiteten Forschungsprojekt zu
-      Verantwortlichkeit für algorithmenunterstützte Entscheidungsfindung in
-      Organisationen ausgeführt.
+      Lukas Daniel Klausner, Co-PI of the project, is mathematician, and brings
+      extensive knowledge of combinatorics, algorithms and logic, as well as
+      experience with abstraction and modelling to the project. He has carried
+      out similar abstracting activities in the research project he led on
+      accountability for algorithm-assisted decision-making in organisations.
     image:
       src: /uploads/klausner-lukas_portrait.jpeg
       alt: Lukas Daniel Klausner
