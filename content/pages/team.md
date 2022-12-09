@@ -34,11 +34,11 @@ blocks:
   - name: 'Dipl.-Ing. Tobias Dam BSc '
     link: 'https://isf.fhstp.ac.at/team/tobias-dam'
     text: >
-      Masterstudium für Information Security an der FH St. Pölten. Maßgebliche
-      Mitarbeit im PriSAd-Projekt: Entwicklung des MiningHunter-Frameworks.
-      Erfahrung im Bereich Web Scraping und Informationsanalyse, welches für die
-      Gewinnung der Daten zu den OSS- Projekten für die anschließende Auswertung
-      anhand der Metriken essenziell ist.
+      Tobias Dam holds a Master's degree in Information Security from the St.
+      Pölten University of Applied Sciences. He is developer of the MiningHunter
+      framework and has experience in web scraping and information analysis,
+      which is essential for the extraction of data on OSS projects and for the
+      subsequent evaluation.
     image:
       src: /uploads/tobias-dam.jpeg
       alt: Tobias Dam
