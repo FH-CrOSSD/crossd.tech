@@ -7,24 +7,12 @@ blocks:
     _template: content
   - name: 'Dipl.-Ing. Dr. Sebastian Neumaier BSc '
     link: 'https://isf.fhstp.ac.at/team/sebastian-neumaier'
-    text: >+
-      [Sebastian Neumaier](https://sebneumaier.wordpress.com/) holds a PhD
-      degree in Computer Science
-
-      from the Technical University of Vienna and his research focuses on
-      different
-
-      aspects of knowledge graphs, data management and semantic AI systems. He
-
-      chaired the Research and Innovation Track of the SEMANTiCS 2022
-      conference, is
-
-      co-organizer of the Workshop on Semantic AI (SemAI) and published over 30
-
-      research papers in conferences and journals&#x20;
-
-
-
+    text: >
+      [Sebastian Neumaier](https://sebneumaier.wordpress.com/) is PI of the
+      CrOSSD project, researcher at the St. Pölten University of Applied
+      Sciences, and holds a PhD degree in Computer Science from the Technical
+      University of Vienna. His research focuses on different aspects of
+      knowledge graphs, data management and data quality.&#x20;
     image:
       src: /uploads/neumaier-sebastian_portrait.jpeg
       alt: Sebastian Neumaier
