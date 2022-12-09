@@ -4,26 +4,34 @@ blocks:
   - tagline: CrOSSD
     headline: Towards a Critical Open-Source Software Database
     text: >
-      Open-Source-Software (OSS) wird in
+      CrOSSD is a research project that aims to identify important and critical
+      open source software projects and measure their current "health" through
+      automated analyses.&#x20;
 
-      unzähligen (heimischen) Unternehmen und öffentlichen Stellen verwendet;
-      aktuell
 
-      gibt es jedoch keine effiziente Möglichkeit, den Gesundheitszustand von
-      OSS
+      Open source software (OSS) is used in countless companies and public
+      agencies, however, there is currently no efficient way to view or
+      automatically check the health of OSS. The aim of CrOSSD is to assess the
+      status quo regarding the "health" of (especially: critical) OSS projects.
+      "Health" is to be defined by various metrics (including stability,
+      resilience, security and compliance).&#x20;
 
-      einzusehen bzw. automatisiert zu prüfen. In CrOSSD bauen wir eine
-      Datenbank
 
-      auf, die wichtige und kritische Projekte identifizieren und ihren
-      aktuellen
+      #### How does it work?
 
-      Status durch tw. automatisierte Analysen messen kann. OSS-„Gesundheit“ ist
 
-      dabei durch verschiedene Metriken definiert (u. a. Stabilität, Resilienz
-      und
+      Quantitative & qualitative metrics are to be applied:
 
-      Sicherheit).
+
+      * *Quantitative & automated:* Crawling of meta-information (e.g.
+      contributors, commits, activity), analysis of dependencies.
+
+      * *Qualitative:* sustainability/funding, activity indicators, security
+      policies, etc.&#x20;
+
+
+      The result of the project is a platform that offers monitoring and
+      evaluation of the metrics of a corpus of OSS projects.
     image:
       src: /uploads/pexels-markus-winkler-12081252.jpg
       alt: open source
@@ -35,7 +43,7 @@ blocks:
           style: float
           name: shield
         title: OSS-Gesundheit
-        text: |+
+        text: |
           * quantitative und qualitative Metriken
           * Crawling von Meta-Informationen (wie
             z. B. Contributors und Commits)
@@ -45,7 +53,6 @@ blocks:
             Finanzierung
           * Einhaltung von
             Security-Policys
-
       - icon:
           color: blue
           style: float
