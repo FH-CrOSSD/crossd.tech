@@ -7,13 +7,24 @@ blocks:
     _template: content
   - name: 'Dipl.-Ing. Dr. Sebastian Neumaier BSc '
     link: 'https://isf.fhstp.ac.at/team/sebastian-neumaier'
-    text: |
-      Promotion in Informatik an TU Wien, (Co-)Author >30 wiss. Publikation, im
-      Besonderen projektrelevant sind:
+    text: >+
+      [Sebastian Neumaier](https://sebneumaier.wordpress.com/) holds a PhD
+      degree in Computer Science
 
-      * Quality Assessment of OD (2016) doi.org/10.1145/2964909
-      * Knowledge Graphs (2020) doi.org/10.1145/3447772
-      * ODArchive (2020) doi.org/10.1007/978-3-030-62466-8\_20
+      from the Technical University of Vienna and his research focuses on
+      different
+
+      aspects of knowledge graphs, data management and semantic AI systems. He
+
+      chaired the Research and Innovation Track of the SEMANTiCS 2022
+      conference, is
+
+      co-organizer of the Workshop on Semantic AI (SemAI) and published over 30
+
+      research papers in conferences and journals&#x20;
+
+
+
     image:
       src: /uploads/neumaier-sebastian_portrait.jpeg
       alt: Sebastian Neumaier
