@@ -54,12 +54,13 @@ blocks:
           color: blue
           style: float
           name: code
-        title: Ergebnisse
-        text: |
-          * Konzept zur Bewertung des
-            Gesundheitszustands von OSS-Projekten
-          * Plattform, die kontinuierliches
-            Monitoring und Auswertung der Metriken eines Korpus von OSS-Projekten bietet
+        title: Results
+        text: >+
+          * Concept for assessing the health of OSS projects.
+
+          * Platform that provides continuous monitoring and evaluation of the
+          metrics of a corpus of OSS projects.
+
     color: tint
     _template: features
 ---
