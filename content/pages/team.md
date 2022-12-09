@@ -1,8 +1,9 @@
 ---
 title: Team
 blocks:
-  - body: |
-      # Projektteam
+  - body: |+
+      # Project team
+
     color: primary
     _template: content
   - name: 'Dipl.-Ing. Dr. Sebastian Neumaier BSc '
