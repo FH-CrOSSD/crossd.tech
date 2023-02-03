@@ -3002,9 +3002,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.0.0":
-  version: 1.0.7
-  resolution: "@tinacms/cli@npm:1.0.7"
+"@tinacms/cli@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "@tinacms/cli@npm:1.0.8"
   dependencies:
     "@graphql-codegen/core": ^2.1.0
     "@graphql-codegen/plugin-helpers": latest
@@ -3052,7 +3052,7 @@ __metadata:
     zod: ^3.14.3
   bin:
     tinacms: bin/tinacms
-  checksum: 461691f7515bd68a518c0074c8f09d74681d00eb5b915460e5f878124fc8245c07d8bd4e83f7e377ff6084c6b91af185cc18f7976467d74f4d679ee32e116454
+  checksum: c6dce92b887f8b119cc7af4057b7b22ab5c7f7687b0d71f5e89c063ae01ba864fe4c4f51e9d067f48ecb99dc6f6fffd4ebc8a7161c413c948e9f96f2576b07d1
   languageName: node
   linkType: hard
 
@@ -3199,7 +3199,7 @@ __metadata:
     "@headlessui/react": ^1.4.1
     "@svgr/webpack": ^6.3.1
     "@tailwindcss/typography": ^0.5.9
-    "@tinacms/cli": ^1.0.0
+    "@tinacms/cli": ^1.0.8
     "@types/js-cookie": ^3.0.0
     "@types/node": ^18.11.18
     "@types/react": ^18.0.26
@@ -7305,7 +7305,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.1.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -11903,7 +11903,7 @@ remark-mdx@next:
 
 "resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -13254,11 +13254,11 @@ remark-mdx@next:
 
 "typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8f6260acc86b56bfdda6004bc53f32ea548f543e8baef7071c8e34d29d292f3e375c8416556c8de10b24deef6933cd1c16a8233dc84a3dd43a13a13265d0faab
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
