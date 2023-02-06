@@ -3002,9 +3002,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.0.0":
-  version: 1.0.7
-  resolution: "@tinacms/cli@npm:1.0.7"
+"@tinacms/cli@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "@tinacms/cli@npm:1.0.8"
   dependencies:
     "@graphql-codegen/core": ^2.1.0
     "@graphql-codegen/plugin-helpers": latest
@@ -3052,7 +3052,7 @@ __metadata:
     zod: ^3.14.3
   bin:
     tinacms: bin/tinacms
-  checksum: 461691f7515bd68a518c0074c8f09d74681d00eb5b915460e5f878124fc8245c07d8bd4e83f7e377ff6084c6b91af185cc18f7976467d74f4d679ee32e116454
+  checksum: c6dce92b887f8b119cc7af4057b7b22ab5c7f7687b0d71f5e89c063ae01ba864fe4c4f51e9d067f48ecb99dc6f6fffd4ebc8a7161c413c948e9f96f2576b07d1
   languageName: node
   linkType: hard
 
@@ -3199,17 +3199,17 @@ __metadata:
     "@headlessui/react": ^1.4.1
     "@svgr/webpack": ^6.3.1
     "@tailwindcss/typography": ^0.5.9
-    "@tinacms/cli": ^1.0.0
-    "@types/js-cookie": ^3.0.0
-    "@types/node": ^18.11.18
-    "@types/react": ^18.0.26
-    "@types/styled-components": ^5.1.15
+    "@tinacms/cli": ^1.0.8
+    "@types/js-cookie": ^3.0.2
+    "@types/node": ^18.11.19
+    "@types/react": ^18.0.27
+    "@types/styled-components": ^5.1.26
     "@typescript-eslint/eslint-plugin": ^5.20.0
     "@typescript-eslint/parser": ^5.20.0
-    autoprefixer: ^10.4.0
+    autoprefixer: ^10.4.13
     date-fns: ^2.23.0
     eslint: ^8.13.0
-    next: ^13.1.1
+    next: ^13.1.6
     postcss: ^8.3.11
     postcss-import: ^15.1.0
     postcss-nesting: ^10.1.0
@@ -3218,7 +3218,7 @@ __metadata:
     react-icons: ^4.2.0
     react-is: ^18.2.0
     styled-components: ^5.1.3
-    styled-jsx: ^5.1.0
+    styled-jsx: ^5.1.2
     tailwindcss: ^3.2.4
     tinacms: ^1.0.0
     typescript: ^4.5.2
@@ -3439,7 +3439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/js-cookie@npm:^3.0.0":
+"@types/js-cookie@npm:^3.0.2":
   version: 3.0.2
   resolution: "@types/js-cookie@npm:3.0.2"
   checksum: 7ab964288dd26373e134ed0bcde4a7dbea7e6f5de1805e2d1e48eac847e89a0e7f5fdc9164c37931680ec97c6e6e5a73e3e4039e0d08527c2e21badd7bee62d1
@@ -3499,10 +3499,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^18.11.18":
+"@types/node@npm:*, @types/node@npm:>= 8":
   version: 18.11.18
   resolution: "@types/node@npm:18.11.18"
   checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^18.11.19":
+  version: 18.11.19
+  resolution: "@types/node@npm:18.11.19"
+  checksum: d7cd19fcfc59cbdd3f9ba0b4072cb7adc21bd575bd8eb7d7e698975e63564aaa83f03434f32b12331f84f73d0b369d9cbe2371e359d9d7f5c3361f4987f4f7da
   languageName: node
   linkType: hard
 
@@ -3539,7 +3546,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.26":
+"@types/react@npm:*, @types/react@npm:^18.0.27":
   version: 18.0.27
   resolution: "@types/react@npm:18.0.27"
   dependencies:
@@ -3564,7 +3571,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.15":
+"@types/styled-components@npm:^5.1.26":
   version: 5.1.26
   resolution: "@types/styled-components@npm:5.1.26"
   dependencies:
@@ -4701,7 +4708,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.0":
+"autoprefixer@npm:^10.4.0, autoprefixer@npm:^10.4.13":
   version: 10.4.13
   resolution: "autoprefixer@npm:10.4.13"
   dependencies:
@@ -10165,7 +10172,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^13.1.1":
+"next@npm:^13.1.6":
   version: 13.1.6
   resolution: "next@npm:13.1.6"
   dependencies:
@@ -12786,7 +12793,7 @@ remark-mdx@next:
   languageName: node
   linkType: hard
 
-"styled-jsx@npm:^5.1.0":
+"styled-jsx@npm:^5.1.2":
   version: 5.1.2
   resolution: "styled-jsx@npm:5.1.2"
   dependencies:
