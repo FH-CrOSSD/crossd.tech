@@ -2860,9 +2860,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@tinacms/cli@npm:1.2.0"
+"@tinacms/cli@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@tinacms/cli@npm:1.2.1"
   dependencies:
     "@graphql-codegen/core": ^2.1.0
     "@graphql-codegen/plugin-helpers": latest
@@ -2873,8 +2873,8 @@ __metadata:
     "@graphql-tools/graphql-file-loader": ^7.2.0
     "@graphql-tools/load": ^7.3.2
     "@tinacms/app": 1.1.0
-    "@tinacms/datalayer": 1.1.1
-    "@tinacms/graphql": 1.3.0
+    "@tinacms/datalayer": 1.1.2
+    "@tinacms/graphql": 1.3.1
     "@tinacms/metrics": 1.0.2
     "@tinacms/schema-tools": 1.3.1
     ajv: ^6.12.3
@@ -2913,22 +2913,22 @@ __metadata:
     zod: ^3.14.3
   bin:
     tinacms: bin/tinacms
-  checksum: a54f7d8e38b25b7f9c9080406912efeec08da6de50209ba01d4ccebb089c2f7b6165470929f8b3604856f1e71145398c226841f50410eaf5b099a8f3460abbc5
+  checksum: 136c43c33ea6560d427765c1e2ed490f04773cbca9c721b3af8202f744f382da9e564be38d311ff688c85284689501233530ac61b1a997e8522b62a7dce72d17
   languageName: node
   linkType: hard
 
-"@tinacms/datalayer@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@tinacms/datalayer@npm:1.1.1"
+"@tinacms/datalayer@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@tinacms/datalayer@npm:1.1.2"
   dependencies:
-    "@tinacms/graphql": 1.3.0
-  checksum: 66146cd7678df3ce3fd850b178c441d82c85b82b8e31d20475be65c8a83e0bce56b314ca57e7f0157a77b264eb1ffd43c127b1f4564efe0900cb2f4fbd52ec10
+    "@tinacms/graphql": 1.3.1
+  checksum: a0757a69427b2dd22fecd6d4185021e879c1fecc3312d33b053d2df7ff386834943dce58bcc798e6326425af6a88a7c91608c390e0e568250506f5dbcf5ad45a
   languageName: node
   linkType: hard
 
-"@tinacms/graphql@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@tinacms/graphql@npm:1.3.0"
+"@tinacms/graphql@npm:1.3.1":
+  version: 1.3.1
+  resolution: "@tinacms/graphql@npm:1.3.1"
   dependencies:
     "@graphql-tools/relay-operation-optimizer": ^6.4.1
     "@iarna/toml": ^2.2.5
@@ -2980,7 +2980,7 @@ __metadata:
     vfile: ^4.2.0
     ws: ^7.3.1
     yup: ^0.32.9
-  checksum: f3f895f9b27aea007aea83442cfc580cfff9d6bddc7c1476cd7e843a01488a8dfc6cc5f764a1f0bac508c1fcaf2a90f3c31bb71cd777e6893a93f49527ea63b8
+  checksum: 374e7d3836cf99e5292b454693d91fe549be82b137a685df6fd811a5859afb900e4dc832b17419a06ca378bdd47a5bc3cafa9d7a0a23e5678e7e93a37663882c
   languageName: node
   linkType: hard
 
@@ -3079,7 +3079,7 @@ __metadata:
     "@headlessui/react": ^1.7.10
     "@svgr/webpack": ^6.5.1
     "@tailwindcss/typography": ^0.5.9
-    "@tinacms/cli": ^1.2.0
+    "@tinacms/cli": ^1.2.1
     "@types/js-cookie": ^3.0.2
     "@types/node": ^18.13.0
     "@types/react": ^18.0.28
