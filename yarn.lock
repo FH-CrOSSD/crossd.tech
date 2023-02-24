@@ -1787,6 +1787,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@graphql-inspector/core@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@graphql-inspector/core@npm:4.0.0"
+  dependencies:
+    dependency-graph: 0.11.0
+    object-inspect: 1.12.3
+    tslib: ^2.0.0
+  peerDependencies:
+    graphql: ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: 6f3a1a013802e6c60bb2bdd682727e94ce93c5778f7fa50481070692a85488734226d62397d4bb7e4dcb49119ef42a2f39ff105d19c3c4af3caf4cebdde8dc1f
+  languageName: node
+  linkType: hard
+
 "@graphql-tools/graphql-file-loader@npm:^7.2.0":
   version: 7.5.14
   resolution: "@graphql-tools/graphql-file-loader@npm:7.5.14"
@@ -2827,9 +2840,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/app@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@tinacms/app@npm:1.1.0"
+"@tinacms/app@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@tinacms/app@npm:1.1.1"
   dependencies:
     "@headlessui/react": 1.6.6
     "@heroicons/react": 1.0.6
@@ -2856,13 +2869,13 @@ __metadata:
     vite: 3.1.8
     webfontloader: 1.6.28
     xstate: 4.32.1
-  checksum: a2b712cc748ca94ab4fd1b11c82560be62f6c1a772f412409753ea1736abf1bd13305490c2187a7603ecc3256b3c9764b6add82f58f07bf9a525f34222ec8edf
+  checksum: 1518345b86de7ac2652070743bffedb05c198739eea4097e8a46c3b3a061f468fe6b3674c6e9c603f5013de77ccc459df3d1e3b23afc1294b880e37f23c579c4
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "@tinacms/cli@npm:1.2.1"
+"@tinacms/cli@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "@tinacms/cli@npm:1.2.2"
   dependencies:
     "@graphql-codegen/core": ^2.1.0
     "@graphql-codegen/plugin-helpers": latest
@@ -2870,13 +2883,14 @@ __metadata:
     "@graphql-codegen/typescript-generic-sdk": ^2.1.4
     "@graphql-codegen/typescript-operations": ^2.1.4
     "@graphql-codegen/visitor-plugin-common": ^2.4.0
+    "@graphql-inspector/core": ^4.0.0
     "@graphql-tools/graphql-file-loader": ^7.2.0
     "@graphql-tools/load": ^7.3.2
-    "@tinacms/app": 1.1.0
-    "@tinacms/datalayer": 1.1.2
-    "@tinacms/graphql": 1.3.1
+    "@tinacms/app": 1.1.1
+    "@tinacms/datalayer": 1.1.3
+    "@tinacms/graphql": 1.3.2
     "@tinacms/metrics": 1.0.2
-    "@tinacms/schema-tools": 1.3.1
+    "@tinacms/schema-tools": 1.3.2
     ajv: ^6.12.3
     altair-express-middleware: 4.0.6
     auto-bind: ^4.0.0
@@ -2913,27 +2927,27 @@ __metadata:
     zod: ^3.14.3
   bin:
     tinacms: bin/tinacms
-  checksum: 136c43c33ea6560d427765c1e2ed490f04773cbca9c721b3af8202f744f382da9e564be38d311ff688c85284689501233530ac61b1a997e8522b62a7dce72d17
+  checksum: fd9d793cd5b5ba0d7d12d0ab8a2f6e8270300c0dfadda1e68723bade06b55d3503cfa27b1c2672693532f0577584a5ef8231e9145ffc456c166fdf9db1986f5b
   languageName: node
   linkType: hard
 
-"@tinacms/datalayer@npm:1.1.2":
-  version: 1.1.2
-  resolution: "@tinacms/datalayer@npm:1.1.2"
+"@tinacms/datalayer@npm:1.1.3":
+  version: 1.1.3
+  resolution: "@tinacms/datalayer@npm:1.1.3"
   dependencies:
-    "@tinacms/graphql": 1.3.1
-  checksum: a0757a69427b2dd22fecd6d4185021e879c1fecc3312d33b053d2df7ff386834943dce58bcc798e6326425af6a88a7c91608c390e0e568250506f5dbcf5ad45a
+    "@tinacms/graphql": 1.3.2
+  checksum: bec5f3a8e4d284e501054c9a585fe72c89e104ab25a5c68be803c71a2d3a1098998be4ba632aa12ae12610e6be6271f8c238b8f1aec66d5a3ce31e0975877a3f
   languageName: node
   linkType: hard
 
-"@tinacms/graphql@npm:1.3.1":
-  version: 1.3.1
-  resolution: "@tinacms/graphql@npm:1.3.1"
+"@tinacms/graphql@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@tinacms/graphql@npm:1.3.2"
   dependencies:
     "@graphql-tools/relay-operation-optimizer": ^6.4.1
     "@iarna/toml": ^2.2.5
-    "@tinacms/mdx": 1.3.0
-    "@tinacms/schema-tools": 1.3.1
+    "@tinacms/mdx": 1.3.1
+    "@tinacms/schema-tools": 1.3.2
     abstract-level: ^1.0.3
     body-parser: ^1.19.0
     cors: ^2.8.5
@@ -2980,15 +2994,15 @@ __metadata:
     vfile: ^4.2.0
     ws: ^7.3.1
     yup: ^0.32.9
-  checksum: 374e7d3836cf99e5292b454693d91fe549be82b137a685df6fd811a5859afb900e4dc832b17419a06ca378bdd47a5bc3cafa9d7a0a23e5678e7e93a37663882c
+  checksum: a702196d374850b67080e1540cb0205c20e32d2fa663ec24c3db552e8e061ec9ff8a61a984c5503e6924a13700896c6158357e82f5c763d84d1970da8bed7742
   languageName: node
   linkType: hard
 
-"@tinacms/mdx@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@tinacms/mdx@npm:1.3.0"
+"@tinacms/mdx@npm:1.3.1":
+  version: 1.3.1
+  resolution: "@tinacms/mdx@npm:1.3.1"
   dependencies:
-    "@tinacms/schema-tools": 1.3.1
+    "@tinacms/schema-tools": 1.3.2
     "@types/mdast": ^3.0.10
     "@types/unist": ^2.0.6
     acorn: ^8.7.1
@@ -3033,7 +3047,7 @@ __metadata:
     unist-util-visit-parents: ^5.1.3
     uvu: ^0.5.6
     vfile: ^4.2.0
-  checksum: 7e0b7a8ecb599242fdb9d7c768cb8573ed488b0ada84e034253fffca6a5b81cffd6c0f5373804a2530e7e710fc6212597209d47b6cd8c01948c8d017529d7758
+  checksum: 663013957e34e8ec805f64c4ffb85220564c7d7e50f1b4ff015abaa20b0924a404e1c979953fe8151c9dd4ecf1ced0de967fd1d2c2604ec91412e418b66d1df3
   languageName: node
   linkType: hard
 
@@ -3061,6 +3075,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tinacms/schema-tools@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@tinacms/schema-tools@npm:1.3.2"
+  dependencies:
+    url-pattern: ^1.0.3
+    zod: ^3.14.3
+  peerDependencies:
+    react: ">=16.14.0"
+    yup: ^0.32.0
+  checksum: 44082093b2478c27f85b648c7b2b3a57b42631ecc0aa9ac1104cfc71138bb65c63d8ccd8bf69544e47a78293d2c9a142bf705d24073660f103e309c43bf2034a
+  languageName: node
+  linkType: hard
+
 "@tinacms/sharedctx@npm:1.0.1":
   version: 1.0.1
   resolution: "@tinacms/sharedctx@npm:1.0.1"
@@ -3079,7 +3106,7 @@ __metadata:
     "@headlessui/react": ^1.7.11
     "@svgr/webpack": ^6.5.1
     "@tailwindcss/typography": ^0.5.9
-    "@tinacms/cli": ^1.2.1
+    "@tinacms/cli": ^1.2.2
     "@types/js-cookie": ^3.0.2
     "@types/node": ^18.13.0
     "@types/react": ^18.0.28
@@ -5946,7 +5973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dependency-graph@npm:^0.11.0":
+"dependency-graph@npm:0.11.0, dependency-graph@npm:^0.11.0":
   version: 0.11.0
   resolution: "dependency-graph@npm:0.11.0"
   checksum: 477204beaa9be69e642bc31ffe7a8c383d0cf48fa27acbc91c5df01431ab913e65c154213d2ef83d034c98d77280743ec85e5da018a97a18dd43d3c0b78b28cd
@@ -7226,7 +7253,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.1.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -10578,7 +10605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-inspect@npm:^1.9.0":
+"object-inspect@npm:1.12.3, object-inspect@npm:^1.9.0":
   version: 1.12.3
   resolution: "object-inspect@npm:1.12.3"
   checksum: dabfd824d97a5f407e6d5d24810d888859f6be394d8b733a77442b277e0808860555176719c5905e765e3743a7cada6b8b0a3b85e5331c530fd418cc8ae991db
@@ -12061,7 +12088,7 @@ remark-mdx@next:
 
 "resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -13320,7 +13347,7 @@ remark-mdx@next:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
+"tslib@npm:^2.0.0, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
@@ -13447,11 +13474,11 @@ remark-mdx@next:
 
 "typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8f6260acc86b56bfdda6004bc53f32ea548f543e8baef7071c8e34d29d292f3e375c8416556c8de10b24deef6933cd1c16a8233dc84a3dd43a13a13265d0faab
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
