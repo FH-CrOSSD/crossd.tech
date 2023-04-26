@@ -3,18 +3,26 @@ title: CrOSSD
 blocks:
   - tagline: CrOSSD
     headline: Towards a Critical Open-Source Software Database
-    text: >
-      CrOSSD is a research project that aims to identify important and critical
-      open source software projects and measure their current "health" through
-      automated analyses.&#x20;
+    text: >+
+      The research project CrOSSD
+
+      aims to create a database of OSS projects and evaluate their
+
+      "health" status using both quantitative and qualitative metrics.
+
 
 
       Open source software (OSS) is used in countless companies and public
       agencies, however, there is currently no efficient way to view or
-      automatically check the health of OSS. The aim of CrOSSD is to assess the
-      status quo regarding the "health" of (especially: critical) OSS projects.
-      "Health" is to be defined by various metrics (including stability,
-      resilience, security and compliance).&#x20;
+      automatically check the health of OSS. 
+
+
+      Our goal is to assess the status quo regarding the "health" of
+      (especially:
+
+      critical) OSS projects and make a contribution to the transparent
+
+      and critical evaluation of open-source software.
 
 
       #### How does it work?
@@ -27,11 +35,15 @@ blocks:
       contributors, commits, activity), analysis of dependencies.
 
       * *Qualitative:* sustainability/funding, activity indicators, security
-      policies, etc.&#x20;
+      policies, etc. 
 
 
-      The result of the project is a platform that offers monitoring and
-      evaluation of the metrics of a corpus of OSS projects.
+      The results will provide a comprehensive view of the health of
+
+      OSS projects, making it easier for developers, maintainers and
+
+      stakeholders to make informed decisions.
+
     image:
       src: /uploads/pexels-markus-winkler-12081252.jpg
       alt: open source
@@ -43,25 +55,65 @@ blocks:
           style: float
           name: shield
         title: OSS Health
-        text: |+
+        text: |
           * Quantitative and qualitative metrics
           * Crawling of meta-information (such as contributors and commits)
           * Analysis of dependencies on other software projects
           * Sustainability and/or existing funding
           * Compliance with security policies
-
       - icon:
           color: blue
           style: float
           name: code
         title: Results
-        text: >+
+        text: >
           * Concept for assessing the health of OSS projects.
 
           * Platform that provides continuous monitoring and evaluation of the
           metrics of a corpus of OSS projects.
-
     color: tint
     _template: features
+  - body: >
+      # Project Architecture
+
+
+      ![CrOSSD architecture](/uploads/architecture.drawio.svg)
+
+
+      ### Data collection
+
+
+      Gathers metadata from various sources such
+
+      as code-hosting platforms, financial reports, and community engagement
+      data.
+
+
+      ### Metrics assessment
+
+
+      Analyzes the collected data and generates
+
+      scores reflecting the health of OSS projects in different domains.
+
+
+      ### Project health database
+
+
+      Continuously monitors and updates
+
+      the metrics assessment.
+
+
+      ### Integration & UI
+
+
+      Results are displayed on a user-friendly web
+
+      platform, planned integration with other tools and platforms.
+    color: ''
+    _template: content
 ---
+
+
 
