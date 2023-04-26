@@ -237,6 +237,16 @@ const config = defineStaticConfig({
                     label: "Github",
                     name: "github",
                   },
+                  {
+                    type: "string",
+                    label: "netidee-url",
+                    name: "netidee_url",
+                  },
+                  {
+                    type: "string",
+                    label: "netidee-image-url",
+                    name: "netidee_image_url",
+                  },
                 ],
               },
             ],

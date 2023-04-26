@@ -123,6 +123,21 @@ export const Footer = ({ data, icon, rawData }) => {
                 />
               </a>
             )}
+            {data.social && data.social.netidee_url && (
+              <a
+                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
+                href={data.social.netidee_url}
+                target="_blank"
+              >
+                {data.social.netidee_image_url && (<img
+                  className={`${socialIconClasses} ${socialIconColorClasses[
+                    data.color === "primary" ? "primary" : theme.color
+                  ]
+                    }`}
+                  src={data.social.netidee_image_url}
+                />)}
+              </a>
+            )}
           </div>
                   {/* third element */}
           </div>
