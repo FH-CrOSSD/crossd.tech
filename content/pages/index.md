@@ -73,6 +73,47 @@ blocks:
           metrics of a corpus of OSS projects.
     color: tint
     _template: features
+  - body: >
+      # Project Architecture
+
+
+      ![CrOSSD architecture](/uploads/architecture.drawio.svg)
+
+
+      ### Data collection
+
+
+      Gathers metadata from various sources such
+
+      as code-hosting platforms, financial reports, and community engagement
+      data.
+
+
+      ### Metrics assessment
+
+
+      Analyzes the collected data and generates
+
+      scores reflecting the health of OSS projects in different domains.
+
+
+      ### Project health database
+
+
+      Continuously monitors and updates
+
+      the metrics assessment.
+
+
+      ### Integration & UI
+
+
+      Results are displayed on a user-friendly web
+
+      platform, planned integration with other tools and platforms.
+    color: ''
+    _template: content
 ---
+
 
 
