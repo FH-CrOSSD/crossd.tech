@@ -8,12 +8,12 @@
     "color": "default",
     "nav": [
       {
-        "href": "posts",
-        "label": "Blog"
-      },
-      {
         "href": "",
         "label": "Home"
+      },
+      {
+        "href": "posts",
+        "label": "Blog"
       },
       {
         "href": "team",
