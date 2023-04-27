@@ -47,30 +47,6 @@ blocks:
       alt: open source
     color: tint
     _template: hero
-  - items:
-      - icon:
-          color: red
-          style: float
-          name: shield
-        title: OSS Health
-        text: |
-          * Quantitative and qualitative metrics
-          * Crawling of meta-information (such as contributors and commits)
-          * Analysis of dependencies on other software projects
-          * Sustainability and/or existing funding
-          * Compliance with security policies
-      - icon:
-          color: blue
-          style: float
-          name: code
-        title: Results
-        text: >
-          * Concept for assessing the health of OSS projects.
-
-          * Platform that provides continuous monitoring and evaluation of the
-          metrics of a corpus of OSS projects.
-    color: tint
-    _template: features
   - body: >
       # Project Architecture
 
@@ -114,7 +90,32 @@ blocks:
       platform, planned integration with other tools and platforms.
     color: ''
     _template: content
+  - items:
+      - icon:
+          color: red
+          style: float
+          name: shield
+        title: OSS Health
+        text: |
+          * Quantitative and qualitative metrics
+          * Crawling of meta-information (such as contributors and commits)
+          * Analysis of dependencies on other software projects
+          * Sustainability and/or existing funding
+          * Compliance with security policies
+      - icon:
+          color: blue
+          style: float
+          name: code
+        title: Results
+        text: >
+          * Concept for assessing the health of OSS projects.
+
+          * Platform that provides continuous monitoring and evaluation of the
+          metrics of a corpus of OSS projects.
+    color: tint
+    _template: features
 ---
+
 
 
 
