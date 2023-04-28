@@ -12,6 +12,10 @@
         "label": "Home"
       },
       {
+        "href": "posts",
+        "label": "Blog"
+      },
+      {
         "href": "team",
         "label": "Team"
       },

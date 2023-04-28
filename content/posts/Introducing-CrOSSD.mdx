@@ -1,0 +1,28 @@
+---
+title: Introducing CrOSSD
+excerpt: |
+  Envisioning a healthy open-source landscape
+date: 2023-02-21T23:00:00.000Z
+author: content/authors/Tobias-Dam.md
+---
+
+A major advantage of open-source projects is the opportunity for the community to use the project, to take part in and support it and  to keep it up to date. Unfortunately, there is also a downside to that. A lot of projects fail to gain the interest of the community or are abandoned somewhere along the line, especially if there is no company or institution which depends on that project and thus has an interest in keeping it working. 
+
+A short example from the point of view of a web developer: Most modern web frontends are built using dependencies written in JavaScript or TypeScript (or something else that is compiled to JS), such as component frameworks like React or Svelte. After the pages are created, usually they are provided as Single Page Applications,
+server-side rendered websites or used for Static Site Generation. Needless to say, those frameworks depend on other projects as well. Our simple project website crossd.tech currently depends on **1,386 libraries** according to GitHub (including indirect dependencies). That’s … a lot! 
+
+You can probably imagine that it is impossible to keep track of which library is still maintained and up to date – at least manually. This is where the Critical Open-Source Software Database (CrOSSD) comes in. We want to create a website that provides information on whether a project is “healthy” or not, and will also provide tools for use in automated build processes and CI/CD. Although some other projects already provide quantitative data about the health of open-source projects, we want to step up the game. Quantitative information is not enough to determine
+the health of a project, as qualitative factors such as funding or the backing of a company can be vital as well. Therefore, we will start off this project by collecting and defining those metrics as well as a way to retrieve the required data. 
+
+Let’s make our idea clearer by taking a look at our concept graph: 
+
+![](/uploads/architecture.drawio.svg)
+
+Our idea is rather simple. We collect quantitative data from code repositories and other public sources, mix in data about qualitative factors and analyze it using our metrics. We store the results in our database, update them regularly and provide them via a web interface. We will also provide tools for integration in CI/CD processes, IDEs, etc. 
+
+Our main focus during the initial project phase supported by netidee will lie on the two most vital aspects of our project: 
+
+* Metrics: They consist of quantitative as well as **qualitative** information and indicate the health of a project. 
+* Usability: The information needs to be easily available and usable for automated processes and development. 
+
+Our results will be shared via this blog, so stay tuned! 
