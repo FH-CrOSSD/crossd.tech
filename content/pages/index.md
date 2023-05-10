@@ -122,7 +122,10 @@ blocks:
       a Critical Open-Source Software Database. In Companion Proceedings of the
       ACM Web Conference 2023 (WWW '23 Companion). Association for Computing
       Machinery, New York, NY, USA, 156–159.
-      [https://doi.org/10.1145/3543873.3587336]()
+      [https://doi.org/10.1145/3543873.3587336](https://doi.org/10.1145/3543873.3587336)
+
+
+      ######
 
 
       > Tobias Dam and Sebastian Neumaier. 2023. Towards Measuring
@@ -132,6 +135,7 @@ blocks:
     color: default
     _template: content
 ---
+
 
 
 
