@@ -118,23 +118,24 @@ blocks:
       ## Publications
 
 
-      > Tobias Dam, Lukas Daniel Klausner, and Sebastian Neumaier. 2023. Towards
-      a Critical Open-Source Software Database. In Companion Proceedings of the
-      ACM Web Conference 2023 (WWW '23 Companion). Association for Computing
-      Machinery, New York, NY, USA, 156–159.
+      > Tobias Dam, Lukas Daniel Klausner, and Sebastian Neumaier. 2023.
+      **Towards a Critical Open-Source Software Database.** In Companion
+      Proceedings of the ACM Web Conference 2023 (WWW '23 Companion).
+      Association for Computing Machinery, New York, NY, USA, 156–159.
       [https://doi.org/10.1145/3543873.3587336](https://doi.org/10.1145/3543873.3587336)
 
 
       ######
 
 
-      > Tobias Dam and Sebastian Neumaier. 2023. Towards Measuring
-      Vulnerabilities and Exposures in Open-Source Packages. Proceedings of the
-      5th International Data Science Conference - iDSC2023.
+      > Tobias Dam and Sebastian Neumaier. 2023. **Towards Measuring
+      Vulnerabilities and Exposures in Open-Source Packages.** Proceedings of
+      the 5th International Data Science Conference - iDSC2023.
       [https://doi.org/10.48550/arXiv.2206.14527](https://doi.org/10.48550/arXiv.2206.14527)
     color: default
     _template: content
 ---
+
 
 
 
