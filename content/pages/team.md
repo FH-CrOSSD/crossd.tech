@@ -5,7 +5,7 @@ blocks:
     headline: Project team
     text: ''
     image:
-      src: /uploads/MicrosoftTeams-image.png
+      src: /uploads/team-70.webp
     color: primary
     _template: heroImg
   - name: 'Dipl.-Ing. Dr. Sebastian Neumaier BSc '
@@ -48,6 +48,7 @@ blocks:
     color: white
     _template: member
 ---
+
 
 
 
