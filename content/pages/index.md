@@ -131,10 +131,11 @@ blocks:
       > Tobias Dam and Sebastian Neumaier. 2023. Towards Measuring
       Vulnerabilities and Exposures in Open-Source Packages. Proceedings of the
       5th International Data Science Conference - iDSC2023.
-      [https://doi.org/10.48550/arXiv.2305.01311](https://doi.org/10.48550/arXiv.2305.01311)
+      [https://doi.org/10.48550/arXiv.2206.14527](https://doi.org/10.48550/arXiv.2206.14527)
     color: default
     _template: content
 ---
+
 
 
 
