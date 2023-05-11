@@ -1,10 +1,13 @@
 ---
 title: Team
 blocks:
-  - body: |
-      # Project team
+  - tagline: ''
+    headline: Project team
+    text: ''
+    image:
+      src: /uploads/MicrosoftTeams-image.png
     color: primary
-    _template: content
+    _template: heroImg
   - name: 'Dipl.-Ing. Dr. Sebastian Neumaier BSc '
     link: 'https://isf.fhstp.ac.at/team/sebastian-neumaier'
     text: >
@@ -12,7 +15,7 @@ blocks:
       CrOSSD project, researcher at the St. Pölten University of Applied
       Sciences, and holds a PhD degree in Computer Science from the Technical
       University of Vienna. His research focuses on different aspects of
-      knowledge graphs, data management and data quality. 
+      knowledge graphs, data management and data quality.
     image:
       src: /uploads/neumaier-sebastian_portrait_cleanup(1).jpeg
       alt: Sebastian Neumaier
@@ -45,5 +48,6 @@ blocks:
     color: white
     _template: member
 ---
+
 
 
