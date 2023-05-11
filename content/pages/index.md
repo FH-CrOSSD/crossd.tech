@@ -43,7 +43,7 @@ blocks:
 
       stakeholders to make informed decisions.
     image:
-      src: /uploads/pexels-markus-winkler-12081252.jpg
+      src: /uploads/pexels-markus-winkler-12081252.webp
       alt: open source
     color: tint
     _template: hero
@@ -135,6 +135,7 @@ blocks:
     color: default
     _template: content
 ---
+
 
 
 
