@@ -3,6 +3,7 @@ import Link from "next/link";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { BsArrowRight } from "react-icons/bs";
 import { useTheme } from "../layout";
+import format from "date-fns/format";
 
 export const Posts = ({ data }) => {
   const theme = useTheme();
@@ -20,6 +21,11 @@ export const Posts = ({ data }) => {
   return <>
     {data.map((postData) => {
       const post = postData.node;
+      const date = new Date(post._values.date);
+      let formattedDate = "";
+      if (!isNaN(date.getTime())) {
+        formattedDate = format(date, "MMM dd, yyyy");
+      }
       return (
         (<Link
           key={post._sys.filename}
@@ -55,7 +61,7 @@ export const Posts = ({ data }) => {
               —
             </span>
             <p className="text-sm text-gray-400 group-hover:text-gray-500 dark:text-gray-300 dark:group-hover:text-gray-150">
-              {post.date}
+              {formattedDate}
             </p>
           </div>
 
