@@ -3498,9 +3498,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.5.16":
-  version: 1.5.16
-  resolution: "@tinacms/cli@npm:1.5.16"
+"@tinacms/cli@npm:^1.5.17":
+  version: 1.5.17
+  resolution: "@tinacms/cli@npm:1.5.17"
   dependencies:
     "@graphql-codegen/core": ^2.1.0
     "@graphql-codegen/plugin-helpers": latest
@@ -3559,13 +3559,13 @@ __metadata:
     rollup-plugin-visualizer: ^5.9.0
     tailwindcss: ^3.2.7
     url-pattern: ^1.0.3
-    vite: 4.1.5
+    vite: 4.1.4
     yarn: ^1.22.17
     yup: ^0.32.9
     zod: ^3.14.3
   bin:
     tinacms: bin/tinacms
-  checksum: bd9603421e0cf6a17e0ac1e6a14a7e4b5779626fdada98237e118940646a176d5cb799eddce96269b1718a01c0f7250029721a698bebee0d635442f1a3452778
+  checksum: 7d630603c2efadb257d2aabac632ec84a6d82757f51d741dece1c543068b118307801dc1f3cebb6c028fd2c147186910e75ce1b246901c8c42be3bfb7dc94466
   languageName: node
   linkType: hard
 
@@ -3738,7 +3738,7 @@ __metadata:
     "@headlessui/react": ^1.7.15
     "@svgr/webpack": ^6.5.1
     "@tailwindcss/typography": ^0.5.9
-    "@tinacms/cli": ^1.5.16
+    "@tinacms/cli": ^1.5.17
     "@types/js-cookie": ^3.0.3
     "@types/node": ^18.16.16
     "@types/react": ^18.2.8
@@ -14667,11 +14667,11 @@ remark-mdx@next:
 
 "typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=ad5954"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 8f6260acc86b56bfdda6004bc53f32ea548f543e8baef7071c8e34d29d292f3e375c8416556c8de10b24deef6933cd1c16a8233dc84a3dd43a13a13265d0faab
+  checksum: ab417a2f398380c90a6cf5a5f74badd17866adf57f1165617d6a551f059c3ba0a3e4da0d147b3ac5681db9ac76a303c5876394b13b3de75fdd5b1eaa06181c9d
   languageName: node
   linkType: hard
 
@@ -15307,9 +15307,9 @@ remark-mdx@next:
   languageName: node
   linkType: hard
 
-"vite@npm:4.1.5":
-  version: 4.1.5
-  resolution: "vite@npm:4.1.5"
+"vite@npm:4.1.4":
+  version: 4.1.4
+  resolution: "vite@npm:4.1.4"
   dependencies:
     esbuild: ^0.16.14
     fsevents: ~2.3.2
@@ -15341,7 +15341,7 @@ remark-mdx@next:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: c5e4f447efe4c1ead7e8123b593afbabfdc3e3bf23e518edb4ba9b0a27b1af99409a712379b5d384a1954cb087ded9b0c0c893dfac461f12e55a9922e4438b90
+  checksum: 50a9a1f2e29e0ee8fefdec60314d38fb9b746df0bb6ae5a8114014b5bfd95e0fc9b29c0d5e73939361ba53af7eb66c7d20c5656bbe53a783e96540bd3b907c47
   languageName: node
   linkType: hard
 
