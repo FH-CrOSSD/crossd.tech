@@ -4279,10 +4279,62 @@ __metadata:
     styled-components: ^5.3.11
     styled-jsx: ^5.1.2
     tailwindcss: ^3.3.2
-    tinacms: ^1.5.13
+    tinacms: ^1.5.14
     typescript: ^4.9.5
   languageName: unknown
   linkType: soft
+
+"@tinacms/toolkit@npm:1.7.10":
+  version: 1.7.10
+  resolution: "@tinacms/toolkit@npm:1.7.10"
+  dependencies:
+    "@floating-ui/dom": ^0.1.7
+    "@floating-ui/react-dom": ^0.3.3
+    "@headlessui/react": ^1.5.0
+    "@heroicons/react": ^1.0.5
+    "@monaco-editor/react": 4.4.5
+    "@radix-ui/react-popover": ^1.0.6
+    "@react-aria/i18n": ^3.3.4
+    "@react-hook/window-size": ^3.0.7
+    "@react-types/combobox": ^3.2.0
+    "@react-types/shared": ^3.10.0
+    "@sambego/storybook-styles": ^1.0.0
+    "@tinacms/search": 1.0.4
+    "@tinacms/sharedctx": 1.0.1
+    "@udecode/plate-headless": ^21.4.0
+    atob: 2.1.2
+    color-string: ^1.5.3
+    date-fns: 2.30.0
+    final-form: ^4.20.2
+    final-form-arrays: ^3.0.1
+    final-form-set-field-data: ^1.0.2
+    is-hotkey: ^0.2.0
+    lodash.get: ^4.4.2
+    moment: 2.29.4
+    monaco-editor: 0.31.0
+    prism-react-renderer: ^1.3.5
+    prismjs: ^1.28.0
+    prop-types: 15.7.2
+    react-beautiful-dnd: ^13.1.0
+    react-color: ^2.17.3
+    react-datetime: ^2.16.3
+    react-dropzone: 14.2.3
+    react-final-form: ^6.3.0
+    react-icons: ^4.3.1
+    react-onclickoutside: ^6.13.0
+    scheduler: 0.19.0
+    slate: ^0.94.1
+    slate-history: ^0.93.0
+    slate-hyperscript: ^0.77.0
+    slate-react: ^0.97.1
+    webfontloader: 1.6.28
+  peerDependencies:
+    react: ">=16.14"
+    react-dom: ">=16.14"
+    react-is: ">=16.14.0"
+  checksum: b2659139efcf39704912a39693c0764ab9f01c0f9b14692e956cb548859ed77890c6e8eadcbff242651405cdd8662a5cbaf90e4c093bd3c29cf4166d15285027
+  languageName: node
+  linkType: hard
 
 "@tinacms/toolkit@npm:1.7.9":
   version: 1.7.9
@@ -13915,7 +13967,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinacms@npm:1.5.13, tinacms@npm:^1.5.13":
+"tinacms@npm:1.5.13":
   version: 1.5.13
   resolution: "tinacms@npm:1.5.13"
   dependencies:
@@ -13944,6 +13996,38 @@ __metadata:
     react-dom: ">=16.14.0"
     react-is: ^16.13.1 || <18.0.0
   checksum: 970e464c829cab1aa13ff879caf9ac87fc0a10b26e5185d3f63471b8d15c07912d8833e9071b9358e752d6f7ccb28f92fdf5d95d2b7170da4066101cad6dd440
+  languageName: node
+  linkType: hard
+
+"tinacms@npm:^1.5.14":
+  version: 1.5.14
+  resolution: "tinacms@npm:1.5.14"
+  dependencies:
+    "@graphql-inspector/core": ^4.0.0
+    "@headlessui/react": ^1.5.0
+    "@heroicons/react": ^1.0.4
+    "@react-hook/window-size": ^3.0.7
+    "@tinacms/schema-tools": 1.4.7
+    "@tinacms/search": 1.0.4
+    "@tinacms/sharedctx": 1.0.1
+    "@tinacms/toolkit": 1.7.10
+    crypto-js: ^4.0.0
+    encoding: 0.1.13
+    fetch-ponyfill: ^7.1.0
+    final-form: 4.20.1
+    graphql: 15.8.0
+    graphql-tag: ^2.11.0
+    lodash.set: ^4.3.2
+    prism-react-renderer: ^2.0.6
+    react-icons: ^4.3.1
+    react-router-dom: 6.3.0
+    yup: ^0.32.0
+    zod: ^3.14.3
+  peerDependencies:
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+    react-is: ^16.13.1 || <18.0.0
+  checksum: ba5cc461e26af4495fceaffc4970c0a64a66da7f657a28b41834bbc5f831c313088e5c659f803e8af6d146a3e6542fbd018a720e95ceafd39001558d04f606d9
   languageName: node
   linkType: hard
 
@@ -14198,11 +14282,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 1f8f3b6aaea19f0f67cba79057674ba580438a7db55057eb89cc06950483c5d632115c14077f6663ea76fd09fce3c190e6414bb98582ec80aa5a4eaf345d5b68
+  checksum: ab417a2f398380c90a6cf5a5f74badd17866adf57f1165617d6a551f059c3ba0a3e4da0d147b3ac5681db9ac76a303c5876394b13b3de75fdd5b1eaa06181c9d
   languageName: node
   linkType: hard
 
