@@ -36,7 +36,7 @@
     "react-is": "^18.2.0",
     "styled-components": "^5.3.11",
     "styled-jsx": "^5.1.2",
-    "tinacms": "^1.5.15",
+    "tinacms": "^1.5.16",
     "typescript": "^4.9.5"
   }
 }
