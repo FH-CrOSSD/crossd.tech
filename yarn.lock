@@ -2078,10 +2078,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.49.0":
-  version: 8.49.0
-  resolution: "@eslint/js@npm:8.49.0"
-  checksum: a6601807c8aeeefe866926ad92ed98007c034a735af20ff709009e39ad1337474243d47908500a3bde04e37bfba16bcf1d3452417f962e1345bc8756edd6b830
+"@eslint/js@npm:8.50.0":
+  version: 8.50.0
+  resolution: "@eslint/js@npm:8.50.0"
+  checksum: 302478f2acaaa7228729ec6a04f56641590185e1d8cd1c836a6db8a6b8009f80a57349341be9fbb9aa1721a7a569d1be3ffc598a33300d22816f11832095386c
   languageName: node
   linkType: hard
 
@@ -2902,72 +2902,72 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/env@npm:13.4.19"
-  checksum: ace4f82890954ade0164fbe2b7ff988268d2b99b2e80caa6707c51fa4cbfaaa31e48fbbcecd4fd142af3503c544e1b4c91e8185d4af253c8fb46550e9e70ad7e
+"@next/env@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/env@npm:13.5.4"
+  checksum: 95ec7108bc88a01fed5389fb33e4b9eb34937908859d9f0aa87930c660f4395d90dafe10e54830faae5bc0a1b799be544c6455a2c8054499569d1e9296369076
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-darwin-arm64@npm:13.4.19"
+"@next/swc-darwin-arm64@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-darwin-arm64@npm:13.5.4"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-darwin-x64@npm:13.4.19"
+"@next/swc-darwin-x64@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-darwin-x64@npm:13.5.4"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-arm64-gnu@npm:13.4.19"
+"@next/swc-linux-arm64-gnu@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-linux-arm64-gnu@npm:13.5.4"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-arm64-musl@npm:13.4.19"
+"@next/swc-linux-arm64-musl@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-linux-arm64-musl@npm:13.5.4"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-x64-gnu@npm:13.4.19"
+"@next/swc-linux-x64-gnu@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-linux-x64-gnu@npm:13.5.4"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-linux-x64-musl@npm:13.4.19"
+"@next/swc-linux-x64-musl@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-linux-x64-musl@npm:13.5.4"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-win32-arm64-msvc@npm:13.4.19"
+"@next/swc-win32-arm64-msvc@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-win32-arm64-msvc@npm:13.5.4"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-ia32-msvc@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-win32-ia32-msvc@npm:13.4.19"
+"@next/swc-win32-ia32-msvc@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-win32-ia32-msvc@npm:13.5.4"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:13.4.19":
-  version: 13.4.19
-  resolution: "@next/swc-win32-x64-msvc@npm:13.4.19"
+"@next/swc-win32-x64-msvc@npm:13.5.4":
+  version: 13.5.4
+  resolution: "@next/swc-win32-x64-msvc@npm:13.5.4"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -3929,12 +3929,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/helpers@npm:0.5.1":
-  version: 0.5.1
-  resolution: "@swc/helpers@npm:0.5.1"
+"@swc/helpers@npm:0.5.2":
+  version: 0.5.2
+  resolution: "@swc/helpers@npm:0.5.2"
   dependencies:
     tslib: ^2.4.0
-  checksum: 71e0e27234590435e4c62b97ef5e796f88e786841a38c7116a5e27a3eafa7b9ead7cdec5249b32165902076de78446945311c973e59bddf77c1e24f33a8f272a
+  checksum: 51d7e3d8bd56818c49d6bfbd715f0dbeedc13cf723af41166e45c03e37f109336bbcb57a1f2020f4015957721aeb21e1a7fff281233d797ff7d3dd1f447fa258
   languageName: node
   linkType: hard
 
@@ -3993,16 +3993,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/app@npm:1.2.27":
-  version: 1.2.27
-  resolution: "@tinacms/app@npm:1.2.27"
+"@tinacms/app@npm:1.2.28":
+  version: 1.2.28
+  resolution: "@tinacms/app@npm:1.2.28"
   dependencies:
     "@codemirror/language": 6.0.0
     "@graphiql/toolkit": 0.8.4
     "@headlessui/react": 1.6.6
     "@heroicons/react": 1.0.6
     "@monaco-editor/react": 4.4.5
-    "@tinacms/mdx": 1.3.18
+    "@tinacms/mdx": 1.3.19
     "@xstate/react": 3.0.0
     final-form: 4.20.7
     graphiql: 3.0.0-alpha.1
@@ -4013,16 +4013,16 @@ __metadata:
     react-dom: 17.0.2
     react-router-dom: 6.3.0
     tailwindcss: ^3.2.7
-    tinacms: 1.5.20
+    tinacms: 1.5.21
     typescript: ^4.6.4
     zod: ^3.14.3
-  checksum: 82ce07a77a39d14c8fb12791640705c123b13c54d8bb3e38cf86f9c8d8158642b435802d88404ba60e9c7353d16ec0ceb114fa966bbb73a64797c01019cc3390
+  checksum: fbe824551700c4eaa4521248b2f2435b722b852e3c4ba2d3966a38a92b50620871c70bb6b241acc44922ba26d2ff6ce77cdad7d39cdfcc0e7222658c1e71284c
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.5.29":
-  version: 1.5.29
-  resolution: "@tinacms/cli@npm:1.5.29"
+"@tinacms/cli@npm:^1.5.30":
+  version: 1.5.30
+  resolution: "@tinacms/cli@npm:1.5.30"
   dependencies:
     "@graphql-codegen/core": ^2.1.0
     "@graphql-codegen/plugin-helpers": latest
@@ -4038,12 +4038,12 @@ __metadata:
     "@tailwindcss/aspect-ratio": ^0.4.0
     "@tailwindcss/line-clamp": ^0.3.1
     "@tailwindcss/typography": ^0.5.9
-    "@tinacms/app": 1.2.27
-    "@tinacms/datalayer": 1.2.25
-    "@tinacms/graphql": 1.4.25
+    "@tinacms/app": 1.2.28
+    "@tinacms/datalayer": 1.2.26
+    "@tinacms/graphql": 1.4.26
     "@tinacms/metrics": 1.0.2
     "@tinacms/schema-tools": 1.4.12
-    "@tinacms/search": 1.0.10
+    "@tinacms/search": 1.0.11
     "@vitejs/plugin-react": 3.1.0
     ajv: ^6.12.3
     altair-express-middleware: 4.0.6
@@ -4082,7 +4082,7 @@ __metadata:
     readable-stream: ^4.3.0
     rollup-plugin-visualizer: ^5.9.0
     tailwindcss: ^3.2.7
-    tinacms: 1.5.20
+    tinacms: 1.5.21
     typanion: 3.13.0
     url-pattern: ^1.0.3
     vite: ^4.3.9
@@ -4091,25 +4091,25 @@ __metadata:
     zod: ^3.14.3
   bin:
     tinacms: bin/tinacms
-  checksum: b917e0a143f2967f66e1b1c68b8e1678ca7ffaa9e62ae27c054ec6321158592432c2667758b5ef5bcb5a6504b2993d10b72f644041bcf12f6c12a7a2dc8b8c9a
+  checksum: 589e7f79fc8a07c8731dcf729f35236cedfc849467608d40dd6deb5b97b7a5bd7c47e50dbe053ae41b251ed14d3bbb147c64584b5b2b4b6b71b64140e44a44ed
   languageName: node
   linkType: hard
 
-"@tinacms/datalayer@npm:1.2.25":
-  version: 1.2.25
-  resolution: "@tinacms/datalayer@npm:1.2.25"
+"@tinacms/datalayer@npm:1.2.26":
+  version: 1.2.26
+  resolution: "@tinacms/datalayer@npm:1.2.26"
   dependencies:
-    "@tinacms/graphql": 1.4.25
-  checksum: bcd3e175e259d4d224527cd17602f905921f23dabea6457034eab7c8c02e352784657feb753197b2e8b4e47d8bf599c5e23b7da45a6b3608869ef7f5fd3f7879
+    "@tinacms/graphql": 1.4.26
+  checksum: 568e21bca3ef7f4966f37dc246267258469437b2127f0786354e2b5e4fafcd6a92869c2e409fe07c4ba2f6259daf3ffe22d553aa0a68e27524cc42dcb122a9b5
   languageName: node
   linkType: hard
 
-"@tinacms/graphql@npm:1.4.25":
-  version: 1.4.25
-  resolution: "@tinacms/graphql@npm:1.4.25"
+"@tinacms/graphql@npm:1.4.26":
+  version: 1.4.26
+  resolution: "@tinacms/graphql@npm:1.4.26"
   dependencies:
     "@iarna/toml": ^2.2.5
-    "@tinacms/mdx": 1.3.18
+    "@tinacms/mdx": 1.3.19
     "@tinacms/schema-tools": 1.4.12
     abstract-level: ^1.0.3
     body-parser: ^1.19.0
@@ -4133,13 +4133,13 @@ __metadata:
     normalize-path: ^3.0.0
     readable-stream: ^4.3.0
     yup: ^0.32.9
-  checksum: 4483d981dac673a5df318a01e2b6fb76f04f4f1c5e28584d40b2b711b4401cd7b4e73f6346e887869be591faf165e66574b2aa4badc5c08d99092806b1bdb511
+  checksum: b61dcd9e874eb1d0a7b1df6f96f8ded5f7ac5b97ba9d8fe60abe10269fb8e63cae7eb5aaca11858cf5a8c82dceb8905212a18edf7a3d9f544f0738524bdb91b5
   languageName: node
   linkType: hard
 
-"@tinacms/mdx@npm:1.3.18":
-  version: 1.3.18
-  resolution: "@tinacms/mdx@npm:1.3.18"
+"@tinacms/mdx@npm:1.3.19":
+  version: 1.3.19
+  resolution: "@tinacms/mdx@npm:1.3.19"
   dependencies:
     "@tinacms/schema-tools": 1.4.12
     acorn: 8.8.2
@@ -4168,7 +4168,7 @@ __metadata:
     unist-util-visit: 4.1.2
     uvu: 0.5.6
     vfile-message: 3.1.4
-  checksum: bd5f0ffbe2bc7d0109cdfdb9c07d8ee056b296e49aa3f396ea6a2cb8128de799f081b531eeea0355f05256cb0f548af3fec818c7eff490ebec11c96ac07702fb
+  checksum: cf9e5fdf991dc98e2ed3a8205fe7b34e6e9a68a26d229737daa25762bec042d144c8c1efe57aa22e4ab453c47e3a0ed4a10816ddfb0aaae716be6845f1869f30
   languageName: node
   linkType: hard
 
@@ -4197,11 +4197,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/search@npm:1.0.10":
-  version: 1.0.10
-  resolution: "@tinacms/search@npm:1.0.10"
+"@tinacms/search@npm:1.0.11":
+  version: 1.0.11
+  resolution: "@tinacms/search@npm:1.0.11"
   dependencies:
-    "@tinacms/graphql": 1.4.25
+    "@tinacms/graphql": 1.4.26
     "@tinacms/schema-tools": 1.4.12
     abstract-level: ^1.0.3
     memory-level: ^1.0.0
@@ -4210,7 +4210,7 @@ __metadata:
     search-index: 4.0.0
     sqlite-level: ^1.0.1
     stopword: ^2.0.8
-  checksum: 7c225a59473ed31710bf70ff6961e4d893923c4e7f13653fa1659cadd8bf381ae9c5f0017521cf5ae14de1b8f51ddb84c0b42e8ad2bce2c773d1f3cad725bc3a
+  checksum: 86af9d34347a71aba8223d3315bf9767e82880587033cc21297fb0ea5e50529e9918aa1220cc4623fbd25acaa27d521e681911f9f42766f258aa3f02e95710d9
   languageName: node
   linkType: hard
 
@@ -4231,18 +4231,18 @@ __metadata:
     "@headlessui/react": ^1.7.17
     "@svgr/webpack": ^6.5.1
     "@tailwindcss/typography": ^0.5.10
-    "@tinacms/cli": ^1.5.29
+    "@tinacms/cli": ^1.5.30
     "@types/js-cookie": ^3.0.4
-    "@types/node": ^18.17.17
-    "@types/react": ^18.2.21
-    "@types/styled-components": ^5.1.27
+    "@types/node": ^18.18.3
+    "@types/react": ^18.2.24
+    "@types/styled-components": ^5.1.28
     "@typescript-eslint/eslint-plugin": ^5.62.0
     "@typescript-eslint/parser": ^5.62.0
-    autoprefixer: ^10.4.15
+    autoprefixer: ^10.4.16
     date-fns: ^2.30.0
-    eslint: ^8.49.0
-    next: ^13.4.19
-    postcss: ^8.4.29
+    eslint: ^8.50.0
+    next: ^13.5.4
+    postcss: ^8.4.31
     postcss-import: ^15.1.0
     postcss-nesting: ^10.2.0
     react: ^18.2.0
@@ -4252,7 +4252,7 @@ __metadata:
     styled-components: ^5.3.11
     styled-jsx: ^5.1.2
     tailwindcss: ^3.3.3
-    tinacms: ^1.5.20
+    tinacms: ^1.5.21
     typescript: ^4.9.5
   languageName: unknown
   linkType: soft
@@ -4377,10 +4377,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.17.17":
-  version: 18.17.17
-  resolution: "@types/node@npm:18.17.17"
-  checksum: ff28f347c77723780836f9bb2ffa6db0cd72490bfd7604397c03db31db34f1f2899e82f0aaf3e825efeb09c15bd94d076ea9aca19a1407e1b56cb4603318936c
+"@types/node@npm:^18.18.3":
+  version: 18.18.3
+  resolution: "@types/node@npm:18.18.3"
+  checksum: ed97a832179e0cfbb93738021fe16d0bc5c0f34bea35269c23c9dd5f0ecc8be93dbe5efd51630189a099b31786a47c1bde115508831a7245613a55c3ad1a7d6b
   languageName: node
   linkType: hard
 
@@ -4428,14 +4428,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.21":
-  version: 18.2.21
-  resolution: "@types/react@npm:18.2.21"
+"@types/react@npm:^18.2.24":
+  version: 18.2.24
+  resolution: "@types/react@npm:18.2.24"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: ffed203bfe7aad772b8286f7953305c9181ac3a8f27d3f5400fbbc2a8e27ca8e5bbff818ee014f39ca0d19d2b3bb154e5bdbec7e232c6f80b59069375aa78349
+  checksum: ea5d8204e71b1c9c6631f429a93f8e7be0614cdbdb464e92b3181bdccd8a7c45e30ded8b13da726684b6393f651317c36d54832e3d3cdea0da480a3f26268909
   languageName: node
   linkType: hard
 
@@ -4453,14 +4453,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5.1.27":
-  version: 5.1.27
-  resolution: "@types/styled-components@npm:5.1.27"
+"@types/styled-components@npm:^5.1.28":
+  version: 5.1.28
+  resolution: "@types/styled-components@npm:5.1.28"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
     csstype: ^3.0.2
-  checksum: 6f8d99642f09f28a233a5bf93d3139389c3bf5e4c643620881cb286f581d6844f3c1c43be5bd9405d3b199b6a858bd8b0ec6ccbb17b2304a88d70e2a6f91a996
+  checksum: 2e12be4fdc2d60f63e16f8f5cac98d8305e0686b3332a160fec39df2a277f16715b878e25384ddda29e48acf101110a29ca108b716296e9a06bf2740f1257385
   languageName: node
   linkType: hard
 
@@ -5780,13 +5780,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.15":
-  version: 10.4.15
-  resolution: "autoprefixer@npm:10.4.15"
+"autoprefixer@npm:^10.4.16":
+  version: 10.4.16
+  resolution: "autoprefixer@npm:10.4.16"
   dependencies:
     browserslist: ^4.21.10
-    caniuse-lite: ^1.0.30001520
-    fraction.js: ^4.2.0
+    caniuse-lite: ^1.0.30001538
+    fraction.js: ^4.3.6
     normalize-range: ^0.1.2
     picocolors: ^1.0.0
     postcss-value-parser: ^4.2.0
@@ -5794,7 +5794,7 @@ __metadata:
     postcss: ^8.1.0
   bin:
     autoprefixer: bin/autoprefixer
-  checksum: d490b14fb098c043e109fc13cd23628f146af99a493d35b9df3a26f8ec0b4dd8937c5601cdbaeb465b98ea31d3ea05aa7184711d4d93dfb52358d073dcb67032
+  checksum: 45fad7086495048dacb14bb7b00313e70e135b5d8e8751dcc60548889400763705ab16fc2d99ea628b44c3472698fb0e39598f595ba28409c965ab159035afde
   languageName: node
   linkType: hard
 
@@ -6217,10 +6217,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001517, caniuse-lite@npm:^1.0.30001520":
+"caniuse-lite@npm:^1.0.30001517":
   version: 1.0.30001521
   resolution: "caniuse-lite@npm:1.0.30001521"
   checksum: be2a2b2cd3be03401887aaa31b89f3e7c6230289e6ef704e224268389cc136480fca502ac9e5001a65ff1e50459d3d95f8c4b2d39f878ab9843af3d6f372c8bb
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001538":
+  version: 1.0.30001539
+  resolution: "caniuse-lite@npm:1.0.30001539"
+  checksum: 8595905d6c7234173a4915439fdd69fa2c06b0272d56af63aee0df6114e1ee4727758af160c0db9844055f778e0ea27ed4714facf2e472a2e74d9f567f111f41
   languageName: node
   linkType: hard
 
@@ -7476,14 +7483,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.49.0":
-  version: 8.49.0
-  resolution: "eslint@npm:8.49.0"
+"eslint@npm:^8.50.0":
+  version: 8.50.0
+  resolution: "eslint@npm:8.50.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.6.1
     "@eslint/eslintrc": ^2.1.2
-    "@eslint/js": 8.49.0
+    "@eslint/js": 8.50.0
     "@humanwhocodes/config-array": ^0.11.11
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
@@ -7519,7 +7526,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 4dfe257e1e42da2f9da872b05aaaf99b0f5aa022c1a91eee8f2af1ab72651b596366320c575ccd4e0469f7b4c97aff5bb85ae3323ebd6a293c3faef4028b0d81
+  checksum: 9ebfe5615dc84700000d218e32ddfdcfc227ca600f65f18e5541ec34f8902a00356a9a8804d9468fd6c8637a5ef6a3897291dad91ba6579d5b32ffeae5e31768
   languageName: node
   linkType: hard
 
@@ -7952,10 +7959,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fraction.js@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "fraction.js@npm:4.2.0"
-  checksum: 8c76a6e21dedea87109d6171a0ac77afa14205794a565d71cb10d2925f629a3922da61bf45ea52dbc30bce4d8636dc0a27213a88cbd600eab047d82f9a3a94c5
+"fraction.js@npm:^4.3.6":
+  version: 4.3.6
+  resolution: "fraction.js@npm:4.3.6"
+  checksum: e96ae77e64ebfd442d3a5a01a3f0637b0663fc2440bcf2841b3ad9341ba24c81fb2e3e7142e43ef7d088558c6b3f8609df135b201adc7a1c674aea6a71384162
   languageName: node
   linkType: hard
 
@@ -10384,27 +10391,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^13.4.19":
-  version: 13.4.19
-  resolution: "next@npm:13.4.19"
+"next@npm:^13.5.4":
+  version: 13.5.4
+  resolution: "next@npm:13.5.4"
   dependencies:
-    "@next/env": 13.4.19
-    "@next/swc-darwin-arm64": 13.4.19
-    "@next/swc-darwin-x64": 13.4.19
-    "@next/swc-linux-arm64-gnu": 13.4.19
-    "@next/swc-linux-arm64-musl": 13.4.19
-    "@next/swc-linux-x64-gnu": 13.4.19
-    "@next/swc-linux-x64-musl": 13.4.19
-    "@next/swc-win32-arm64-msvc": 13.4.19
-    "@next/swc-win32-ia32-msvc": 13.4.19
-    "@next/swc-win32-x64-msvc": 13.4.19
-    "@swc/helpers": 0.5.1
+    "@next/env": 13.5.4
+    "@next/swc-darwin-arm64": 13.5.4
+    "@next/swc-darwin-x64": 13.5.4
+    "@next/swc-linux-arm64-gnu": 13.5.4
+    "@next/swc-linux-arm64-musl": 13.5.4
+    "@next/swc-linux-x64-gnu": 13.5.4
+    "@next/swc-linux-x64-musl": 13.5.4
+    "@next/swc-win32-arm64-msvc": 13.5.4
+    "@next/swc-win32-ia32-msvc": 13.5.4
+    "@next/swc-win32-x64-msvc": 13.5.4
+    "@swc/helpers": 0.5.2
     busboy: 1.6.0
     caniuse-lite: ^1.0.30001406
-    postcss: 8.4.14
+    postcss: 8.4.31
     styled-jsx: 5.1.1
     watchpack: 2.4.0
-    zod: 3.21.4
   peerDependencies:
     "@opentelemetry/api": ^1.1.0
     react: ^18.2.0
@@ -10436,7 +10442,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: f4873dab8888ed4dae14d36d7cf8dc54cd042695cf7ee41d05e8757f463d11952a594eb066143cc2f7253ea1d41c6efe681cdc3ab8c2fa6eb0815fa5a94de3dc
+  checksum: f8e964ee9bbabd0303f9d807c9193833fcc47960be029c3721db9a5a35cc4ff690313e30fc6ee497f959a9141048957dddf6eb038b4a23c78c8762b0cd9d0ae0
   languageName: node
   linkType: hard
 
@@ -11123,14 +11129,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.14":
-  version: 8.4.14
-  resolution: "postcss@npm:8.4.14"
+"postcss@npm:8.4.31, postcss@npm:^8.4.31":
+  version: 8.4.31
+  resolution: "postcss@npm:8.4.31"
   dependencies:
-    nanoid: ^3.3.4
+    nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: fe58766ff32e4becf65a7d57678995cfd239df6deed2fe0557f038b47c94e4132e7e5f68b5aa820c13adfec32e523b693efaeb65798efb995ce49ccd83953816
+  checksum: 1d8611341b073143ad90486fcdfeab49edd243377b1f51834dc4f6d028e82ce5190e4f11bb2633276864503654fb7cab28e67abdc0fbf9d1f88cad4a0ff0beea
   languageName: node
   linkType: hard
 
@@ -11164,17 +11170,6 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 8bb9d1b2ea6e694f8987d4f18c94617971b2b8d141602725fedcc2222fdc413b776a6e1b969a25d627d7b2681ca5aabb56f59e727ef94072e1b6ac8412105a2f
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.29":
-  version: 8.4.29
-  resolution: "postcss@npm:8.4.29"
-  dependencies:
-    nanoid: ^3.3.6
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: dd6daa25e781db9ae5b651d9b7bfde0ec6e60e86a37da69a18eb4773d5ddd51e28fc4ff054fbdc04636a31462e6bf09a1e50986f69ac52b10d46b7457cd36d12
   languageName: node
   linkType: hard
 
@@ -13016,9 +13011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinacms@npm:1.5.20, tinacms@npm:^1.5.20":
-  version: 1.5.20
-  resolution: "tinacms@npm:1.5.20"
+"tinacms@npm:1.5.21, tinacms@npm:^1.5.21":
+  version: 1.5.21
+  resolution: "tinacms@npm:1.5.21"
   dependencies:
     "@floating-ui/dom": ^1.4.4
     "@floating-ui/react-dom": ^2.0.1
@@ -13033,7 +13028,7 @@ __metadata:
     "@react-types/shared": ^3.10.0
     "@sambego/storybook-styles": ^1.0.0
     "@tinacms/schema-tools": 1.4.12
-    "@tinacms/search": 1.0.10
+    "@tinacms/search": 1.0.11
     "@tinacms/sharedctx": 1.0.2
     "@udecode/plate-headless": ^21.4.0
     atob: 2.1.2
@@ -13075,7 +13070,7 @@ __metadata:
   peerDependencies:
     react: ">=16.14.0"
     react-dom: ">=16.14.0"
-  checksum: 0cd74d7b4ea552ac9a6c52b13595ec6a9ba94eb4b90b4a87447d6b3cd03c938ea56daa4eade9c34ac19ec7e3e94ffa6af6201f843c8431fe5b345adb430f0ffe
+  checksum: c02f76e7a5a65862e0d737f65c81a271e74a7bee7ab9e1f5eb5ce5a86e67f9aaf3cadaf2d85a473dfea4b16f12147085765c1eaf1ee5cfd36210799b4e8e9ae0
   languageName: node
   linkType: hard
 
@@ -14093,13 +14088,6 @@ __metadata:
     property-expr: ^2.0.4
     toposort: ^2.0.2
   checksum: 43a16786b47cc910fed4891cebdd89df6d6e31702e9462e8f969c73eac88551ce750732608012201ea6b93802c8847cb0aa27b5d57370640f4ecf30f9f97d4b0
-  languageName: node
-  linkType: hard
-
-"zod@npm:3.21.4":
-  version: 3.21.4
-  resolution: "zod@npm:3.21.4"
-  checksum: f185ba87342ff16f7a06686767c2b2a7af41110c7edf7c1974095d8db7a73792696bcb4a00853de0d2edeb34a5b2ea6a55871bc864227dace682a0a28de33e1f
   languageName: node
   linkType: hard
 
