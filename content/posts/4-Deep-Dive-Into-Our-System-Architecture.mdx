@@ -18,11 +18,11 @@ Behold, here is our revised system architecture:
 
 As we wanted to ensure the scalability of our system, we decided to implement our system as a Kubernetes cluster.
 
-Why Kubernetes instead of e. g. Docker Swarm?
+**Why Kubernetes instead of e. g. Docker Swarm?**
 
 We want our system to be used by a lot of people and also enable companies to host our system themselves. We have the impression that more companies use Kubernetes and there are more cloud services providing the possibility to deploy a Kubernetes cluster, hence why we chose it.
 
-Would this work with Docker Swarm as well?
+**Would this work with Docker Swarm as well?**
 
 As the components are just Docker Containers, they can essentially work with any container orchestration framework. You would need to create a custom Docker Compose file for configuration of the containers and the swarm.
 
