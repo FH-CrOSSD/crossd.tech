@@ -3840,6 +3840,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tinacms/graphql@npm:1.4.32":
+  version: 1.4.32
+  resolution: "@tinacms/graphql@npm:1.4.32"
+  dependencies:
+    "@iarna/toml": ^2.2.5
+    "@tinacms/mdx": 1.3.23
+    "@tinacms/schema-tools": 1.4.15
+    abstract-level: ^1.0.3
+    body-parser: ^1.19.0
+    cors: ^2.8.5
+    dataloader: ^2.0.0
+    date-fns: ^2.21.1
+    encoding-down: ^7.1.0
+    estree-walker: ^3.0.0
+    fast-glob: ^3.2.5
+    fs-extra: ^9.0.1
+    glob-parent: ^6.0.2
+    graphql: 15.8.0
+    gray-matter: ^4.0.2
+    isomorphic-git: ^1.21.0
+    js-sha1: ^0.6.0
+    js-yaml: ^3.14.1
+    jsonpath-plus: ^6.0.1
+    lodash: ^4.17.20
+    many-level: ^2.0.0
+    micromatch: 4.0.5
+    normalize-path: ^3.0.0
+    readable-stream: ^4.3.0
+    scmp: ^2.1.0
+    yup: ^0.32.9
+  checksum: 1fdf8671ebe80b42a170eab3598bd6e6f67943ea529ad2ba4f34631ab3e704175986182edd7eeb60053daab0146308ef2a01b2000a862ed070e79a270e491744
+  languageName: node
+  linkType: hard
+
 "@tinacms/mdx@npm:1.3.23":
   version: 1.3.23
   resolution: "@tinacms/mdx@npm:1.3.23"
@@ -3920,6 +3954,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tinacms/search@npm:1.0.17":
+  version: 1.0.17
+  resolution: "@tinacms/search@npm:1.0.17"
+  dependencies:
+    "@tinacms/graphql": 1.4.32
+    "@tinacms/schema-tools": 1.4.15
+    abstract-level: ^1.0.3
+    memory-level: ^1.0.0
+    module-error: ^1.0.2
+    node-fetch: 2
+    search-index: 4.0.0
+    sqlite-level: ^1.0.1
+    stopword: ^2.0.8
+  checksum: 9735f0fbbac04b62435bcf9bf7368b42e16f0c02d9ddd9fb77797a9723906370efa9cb0a444b1421ad0aed873fba6d3e98388ee7ae28159f55aff218b86fd4cb
+  languageName: node
+  linkType: hard
+
 "@tinacms/sharedctx@npm:1.0.2":
   version: 1.0.2
   resolution: "@tinacms/sharedctx@npm:1.0.2"
@@ -3958,7 +4009,7 @@ __metadata:
     styled-components: ^5.3.11
     styled-jsx: ^5.1.2
     tailwindcss: ^3.3.5
-    tinacms: ^1.5.27
+    tinacms: ^1.5.28
     typescript: ^4.9.5
   languageName: unknown
   linkType: soft
@@ -12709,7 +12760,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinacms@npm:1.5.27, tinacms@npm:^1.5.27":
+"tinacms@npm:1.5.27":
   version: 1.5.27
   resolution: "tinacms@npm:1.5.27"
   dependencies:
@@ -12770,6 +12821,70 @@ __metadata:
     react: ">=16.14.0"
     react-dom: ">=16.14.0"
   checksum: 7943580a3f6a08b23e1a3b1c4041dec90c47870512e8a538e8d374d6e6e597f1573afe414525b88ea0f12059de362064b72103bbb0b3ca59c2d869f67a85aac0
+  languageName: node
+  linkType: hard
+
+"tinacms@npm:^1.5.28":
+  version: 1.5.28
+  resolution: "tinacms@npm:1.5.28"
+  dependencies:
+    "@floating-ui/dom": ^1.4.4
+    "@floating-ui/react-dom": ^2.0.1
+    "@graphql-inspector/core": ^4.0.0
+    "@headlessui/react": ^1.5.0
+    "@heroicons/react": ^1.0.4
+    "@monaco-editor/react": 4.4.5
+    "@radix-ui/react-popover": ^1.0.6
+    "@react-aria/i18n": ^3.3.4
+    "@react-hook/window-size": ^3.0.7
+    "@react-types/combobox": ^3.2.0
+    "@react-types/shared": ^3.10.0
+    "@sambego/storybook-styles": ^1.0.0
+    "@tinacms/mdx": 1.3.23
+    "@tinacms/schema-tools": 1.4.15
+    "@tinacms/search": 1.0.17
+    "@tinacms/sharedctx": 1.0.2
+    "@udecode/plate-headless": ^21.4.0
+    atob: 2.1.2
+    color-string: ^1.5.3
+    crypto-js: ^4.0.0
+    date-fns: 2.30.0
+    encoding: 0.1.13
+    fetch-ponyfill: ^7.1.0
+    final-form: 4.20.10
+    final-form-arrays: ^3.0.1
+    final-form-set-field-data: ^1.0.2
+    graphql: 15.8.0
+    graphql-tag: ^2.11.0
+    is-hotkey: ^0.2.0
+    lodash.get: ^4.4.2
+    lodash.set: ^4.3.2
+    moment: 2.29.4
+    monaco-editor: 0.31.0
+    prism-react-renderer: ^2.0.6
+    prismjs: ^1.28.0
+    prop-types: 15.7.2
+    react-beautiful-dnd: ^13.1.0
+    react-color: ^2.17.3
+    react-datetime: ^2.16.3
+    react-dropzone: 14.2.3
+    react-final-form: ^6.3.0
+    react-icons: ^4.3.1
+    react-onclickoutside: ^6.13.0
+    react-router-dom: 6.3.0
+    react-textarea-autosize: 8.5.2
+    scheduler: 0.19.0
+    slate: ^0.94.1
+    slate-history: ^0.93.0
+    slate-hyperscript: ^0.77.0
+    slate-react: ^0.97.1
+    webfontloader: 1.6.28
+    yup: ^0.32.0
+    zod: ^3.14.3
+  peerDependencies:
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  checksum: 7f1d691f9501fc2c02ff606d8f0968eed12641f03c073f3c83d36c69589712c4fdca601206c0836ae995d450a9be8ca0b0bbb9827cd361e69cf7fa2d1860ba13
   languageName: node
   linkType: hard
 
