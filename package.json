@@ -11,23 +11,23 @@
   },
   "devDependencies": {
     "@svgr/webpack": "^6.5.1",
-    "@tinacms/cli": "^1.5.42",
+    "@tinacms/cli": "^1.5.43",
     "@types/js-cookie": "^3.0.6",
-    "@types/node": "^18.19.26",
-    "@types/react": "^18.2.67",
+    "@types/node": "^18.19.29",
+    "@types/react": "^18.2.74",
     "@types/styled-components": "^5.1.34",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
-    "autoprefixer": "^10.4.18",
+    "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
-    "postcss": "^8.4.36",
+    "postcss": "^8.4.38",
     "postcss-import": "^15.1.0",
     "postcss-nesting": "^10.2.0",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.3"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
-    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.12",
     "date-fns": "^2.30.0",
     "next": "^13.5.6",
     "react": "^18.2.0",
@@ -36,7 +36,7 @@
     "react-is": "^18.2.0",
     "styled-components": "^5.3.11",
     "styled-jsx": "^5.1.2",
-    "tinacms": "^1.6.0",
+    "tinacms": "^1.6.1",
     "typescript": "^4.9.5"
   },
   "packageManager": "yarn@4.1.0+sha256.81a00df816059803e6b5148acf03ce313cad36b7f6e5af6efa040a15981a6ffb"

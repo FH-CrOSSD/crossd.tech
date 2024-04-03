@@ -188,6 +188,10 @@ var global_default = {
         label: "Home"
       },
       {
+        href: "https://health.crossd.tech",
+        label: "Data"
+      },
+      {
         href: "posts",
         label: "Blog"
       },

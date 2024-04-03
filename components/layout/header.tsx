@@ -86,7 +86,7 @@ export const Header = ({ data }) => {
                     className={activeItem ? activeItemClasses[theme.color] : ""}
                   >
                     <Link
-                      href={`${prefix}/${item.href}`}
+                      href={(["http://", "https://"].map(x => item.href.startsWith(x))).some(x => x) ? item.href : `${prefix}/${item.href}`}
                       passHref
                       className="select-none	text-base inline-block tracking-wide font-regular transition duration-150 ease-out opacity-70 hover:opacity-100 py-8">
 
