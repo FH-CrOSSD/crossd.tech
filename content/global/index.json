@@ -8,12 +8,12 @@
     "color": "default",
     "nav": [
       {
-        "href": "https://health.crossd.tech",
-        "label": "Data"
-      },
-      {
         "href": "",
         "label": "Home"
+      },
+      {
+        "href": "https://health.crossd.tech",
+        "label": "Data"
       },
       {
         "href": "posts",
