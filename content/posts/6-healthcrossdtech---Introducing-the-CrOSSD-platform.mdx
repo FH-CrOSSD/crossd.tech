@@ -1,0 +1,42 @@
+---
+title: health.crossd.tech - Introducing the CrOSSD platform
+excerpt: >
+  The CrOSSD framework's web interface offers a user-friendly platform for
+  monitoring OSS project health. Utilizing a scalable architecture and intuitive
+  design, users can easily access project metrics, track changes over time, and
+  make informed decisions.
+author: content/authors/Sebastian-Neumaier.md
+date: 2024-04-23T22:00:00.000Z
+---
+
+​CrOSSD's platform implementation - fully available as open source software on [GitHub](https://github.com/FH-CrOSSD) - is designed with scalability and portability in mind. Leveraging Kubernetes clusters, our system can flexibly deploy multiple components, including crawlers and metric calculators, across various nodes. The data collection process is orchestrated by a Celery Task Queue, ensuring regular scans of repositories and seamless task allocation to crawler containers. Our system currently supports two types of crawlers: Type 1, which utilizes the GitHub REST API, and Type 2, predominantly using the GraphQL interface. All gathered data is stored in a distributed ArangoDB database. Additionally, diverse metric calculation containers produce results stored within the database. This robust architecture forms the backbone of CrOSSD's functionality.
+
+![](/uploads/cluster.jpg)
+
+Now, let's take a closer look at the intuitive web interface available at [health.crossd.tech](https://health.crossd.tech/):
+
+Homepage: Upon entering the CrOSSD web interface, users are greeted with a clean and intuitive homepage. It provides quick access to project search functionality and displays general statistics of indexed data, giving users an immediate overview of the platform's capabilities.
+
+![](/uploads/home.png)
+
+Project Search: The search function allows users to find projects based on specific keywords. As demonstrated in the screenshot below, a list of projects containing the search term is generated, facilitating efficient navigation and exploration.
+
+![](/uploads/search.png)
+
+Project Overview: Upon selecting a project of interest, users are presented with a comprehensive overview of its health metrics from the latest scan. The interface features a dropdown menu to access metrics from different scan instances, enabling users to track changes over time and make informed decisions.
+
+![](/uploads/project.png)
+
+Metric Details: Clicking on individual metrics reveals detailed descriptions and definitions, along with graphical representations of historical metric values across all scan instances. This feature empowers users to delve deeper into specific metrics and gain actionable insights into project health.
+
+![](/uploads/plot.png)
+
+Documentation and Resources: CrOSSD's web interface includes dedicated sections for metric documentation and project information, accessible through the navigation bar and footer. Here, users can access comprehensive documentation and guides to maximize their utilization of the platform.
+
+![](/uploads/metrics.png)
+
+With its user-friendly web interface, CrOSSD offers a powerful platform for monitoring and assessing the health of open-source projects. By providing transparent access to project metrics and intuitive navigation, CrOSSD empowers developers and organizations to make informed decisions, fostering a healthier and more sustainable OSS ecosystem.
+
+ 
+
+​
