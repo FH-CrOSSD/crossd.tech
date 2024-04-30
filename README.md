@@ -1,2 +1,6 @@
-# CrOSSD - Towards a Critical Open-Source Software Database
-Open-Source-Software (OSS) is used in countless (domestic) companies and public institutions; however, currently, there is no efficient way to assess or automatically check the health status of OSS. In CrOSSD, we are building a database that can identify important and critical projects and measure their current status through partially automated analyses. OSS "health" is defined by various metrics (including stability, resilience, and security).
+# crossd.tech
+
+Project website of [CrOSSD](https://www.netidee.at/crossd), available at https://crossd.tech
+
+## Acknowledgements
+The financial support from Internetstiftung/Netidee is gratefully acknowledged. The mission of Netidee is to support development of open-source tools for more accessible and versatile use of the Internet in Austria.
