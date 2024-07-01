@@ -42,6 +42,10 @@ blocks:
       OSS projects, making it easier for developers, maintainers and
 
       stakeholders to make informed decisions.
+
+
+      **This project is funded via netidee 2022:
+      [https://www.netidee.at/crossd](https://www.netidee.at/crossd)**
     image:
       src: /uploads/pexels-markus-winkler-12081252.webp
       alt: open source
@@ -135,14 +139,4 @@ blocks:
     color: default
     _template: content
 ---
-
-
-
-
-
-
-
-
-
-
 
