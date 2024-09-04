@@ -188,16 +188,20 @@ var global_default = {
         label: "Home"
       },
       {
+        href: "team",
+        label: "Team"
+      },
+      {
         href: "https://health.crossd.tech",
         label: "Data"
       },
       {
-        href: "posts",
-        label: "Blog"
+        href: "https://fh-crossd.github.io",
+        label: "Docs"
       },
       {
-        href: "team",
-        label: "Team"
+        href: "posts",
+        label: "Blog"
       },
       {
         href: "impressum",
