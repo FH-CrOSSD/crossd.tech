@@ -1,4 +1,5 @@
 module.exports = {
+  output: 'export',
   trailingSlash: false,
   webpack(config) {
     config.module.rules.push({

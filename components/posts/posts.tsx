@@ -3,7 +3,7 @@ import Link from "next/link";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { BsArrowRight } from "react-icons/bs";
 import { useTheme } from "../layout";
-import format from "date-fns/format";
+import { format } from "date-fns";
 
 export const Posts = ({ data }) => {
   const theme = useTheme();
