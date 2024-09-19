@@ -4028,9 +4028,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/app@npm:2.1.3":
-  version: 2.1.3
-  resolution: "@tinacms/app@npm:2.1.3"
+"@tinacms/app@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@tinacms/app@npm:2.1.4"
   dependencies:
     "@graphiql/toolkit": "npm:0.8.4"
     "@headlessui/react": "npm:1.6.6"
@@ -4044,16 +4044,16 @@ __metadata:
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:6.3.0"
-    tinacms: "npm:2.2.3"
+    tinacms: "npm:2.2.4"
     typescript: "npm:^5.5.4"
     zod: "npm:^3.14.3"
-  checksum: 10/6ed07b4f1c0275bd6a7d05585b879e1becf31cdf28f48b5959bce342bf768ce32c80e367f700f73897b8a3b1efa1040e0850aefde71772e1dc0edeaa16df59d9
+  checksum: 10/26ce839fdb53f58201b9f14c92f9bf0c27c628eb88fd16987178e2984cacefc0b810a22d0b7f961ec872315ee033eb00cc4a8c3e9330365ab6f658d09e958fbd
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.6.3":
-  version: 1.6.3
-  resolution: "@tinacms/cli@npm:1.6.3"
+"@tinacms/cli@npm:^1.6.4":
+  version: 1.6.4
+  resolution: "@tinacms/cli@npm:1.6.4"
   dependencies:
     "@graphql-codegen/core": "npm:^2.1.0"
     "@graphql-codegen/plugin-helpers": "npm:latest"
@@ -4067,7 +4067,7 @@ __metadata:
     "@svgr/core": "npm:8.1.0"
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@tailwindcss/typography": "npm:^0.5.13"
-    "@tinacms/app": "npm:2.1.3"
+    "@tinacms/app": "npm:2.1.4"
     "@tinacms/graphql": "npm:1.5.2"
     "@tinacms/metrics": "npm:1.0.5"
     "@tinacms/schema-tools": "npm:1.6.2"
@@ -4099,7 +4099,7 @@ __metadata:
     prompts: "npm:^2.4.1"
     readable-stream: "npm:^4.3.0"
     tailwindcss: "npm:^3.4.4"
-    tinacms: "npm:2.2.3"
+    tinacms: "npm:2.2.4"
     typanion: "npm:3.13.0"
     typescript: "npm:^5.5.4"
     vite: "npm:^4.3.9"
@@ -4107,7 +4107,7 @@ __metadata:
     zod: "npm:^3.14.3"
   bin:
     tinacms: bin/tinacms
-  checksum: 10/2fb3ba3d1f113f8cfade5b77df6b10b17cf692ffafab1d84bfcfcc7872ef1632dbd2a332cdf29938a2a77f713d20b5d1c04dd927925a60603a1955cfcaf27095
+  checksum: 10/41b7d638ddffd29fcdc3db56e608d811f6858ac9611de252abd63b01afbe23868c03f4bead355ec54b24d07bb106f45999dd3558de7f2fe1f9d9b9722bf97b1d
   languageName: node
   linkType: hard
 
@@ -4227,7 +4227,7 @@ __metadata:
     "@headlessui/react": "npm:^2.1.8"
     "@svgr/webpack": "npm:^8.1.0"
     "@tailwindcss/typography": "npm:^0.5.15"
-    "@tinacms/cli": "npm:^1.6.3"
+    "@tinacms/cli": "npm:^1.6.4"
     "@types/js-cookie": "npm:^3.0.6"
     "@types/node": "npm:^22.5.5"
     "@types/react": "npm:^18.3.7"
@@ -4248,7 +4248,7 @@ __metadata:
     styled-components: "npm:^6.1.13"
     styled-jsx: "npm:^5.1.6"
     tailwindcss: "npm:^3.4.12"
-    tinacms: "npm:^2.2.3"
+    tinacms: "npm:^2.2.4"
     typescript: "npm:^5.6.2"
   languageName: unknown
   linkType: soft
@@ -4306,9 +4306,9 @@ __metadata:
   linkType: hard
 
 "@types/estree@npm:*, @types/estree@npm:^1.0.0":
-  version: 1.0.5
-  resolution: "@types/estree@npm:1.0.5"
-  checksum: 10/7de6d928dd4010b0e20c6919e1a6c27b61f8d4567befa89252055fad503d587ecb9a1e3eab1b1901f923964d7019796db810b7fd6430acb26c32866d126fd408
+  version: 1.0.6
+  resolution: "@types/estree@npm:1.0.6"
+  checksum: 10/9d35d475095199c23e05b431bcdd1f6fec7380612aed068b14b2a08aa70494de8a9026765a5a91b1073f636fb0368f6d8973f518a31391d519e20c59388ed88d
   languageName: node
   linkType: hard
 
@@ -5883,14 +5883,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:^8.4.0":
-  version: 8.7.0
-  resolution: "better-sqlite3@npm:8.7.0"
+"better-sqlite3@npm:^11.3.0":
+  version: 11.3.0
+  resolution: "better-sqlite3@npm:11.3.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/ce7b37eac0abddf275d95b195a36879ed843503ca477c80b2193eec4d2c133216b88d53a6c9c25c70ac38477da3adb785d3b573e8dfe13dc55ded0b62f53e2ca
+  checksum: 10/c0f6ad5fb96d22b0a6c7e85809a4e8cb10d14e360137004aa75a6d00b0a6538df8c645cbce41c45246a7e65c36ae5b89c06a07d6e595e361aaa5a2c61e0ea54e
   languageName: node
   linkType: hard
 
@@ -6126,9 +6126,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001646":
-  version: 1.0.30001660
-  resolution: "caniuse-lite@npm:1.0.30001660"
-  checksum: 10/5d83f0b7e2075b7e31f114f739155dc6c21b0afe8cb61180f625a4903b0ccd3d7591a5f81c930f14efddfa57040203ba0890850b8a3738f6c7f17c7dd83b9de8
+  version: 1.0.30001662
+  resolution: "caniuse-lite@npm:1.0.30001662"
+  checksum: 10/275dee3c2365d58c65609e707dfd7454e72195fdae7d3a8fea05f1ddb49581f64dfc65965964ee2cff99cc0af44d08c572437b1effd43e9ddc174d7a1d7f95a3
   languageName: node
   linkType: hard
 
@@ -12517,13 +12517,15 @@ __metadata:
   linkType: hard
 
 "sqlite-level@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "sqlite-level@npm:1.0.1"
+  version: 1.2.0
+  resolution: "sqlite-level@npm:1.2.0"
   dependencies:
-    abstract-level: "npm:^1.0.3"
-    better-sqlite3: "npm:^8.4.0"
+    abstract-level: "npm:^1.0.0"
+    better-sqlite3: "npm:^11.3.0"
     module-error: "npm:^1.0.2"
-  checksum: 10/11194467517a19b5f8591755cbecc5fb8934f92b5d57e5531d81d533971e1288724f8874edb627d1798ff3967b94fe87630d888c2dd3a152856519dc56115ff9
+  peerDependencies:
+    sucrase: ^3.35.0
+  checksum: 10/27bf902c0ece58ae77d92eb9cca56fcc4f9ffde9ba4a370a6fb7420ffda528ffab8038b4b15331dc32f2f9d42f8f203b6bda0195ee7448b32842071f851c637e
   languageName: node
   linkType: hard
 
@@ -12928,9 +12930,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinacms@npm:2.2.3, tinacms@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "tinacms@npm:2.2.3"
+"tinacms@npm:2.2.4, tinacms@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "tinacms@npm:2.2.4"
   dependencies:
     "@ariakit/react": "npm:^0.4.7"
     "@floating-ui/dom": "npm:^1.6.9"
@@ -13005,7 +13007,7 @@ __metadata:
   peerDependencies:
     react: ">=16.14.0"
     react-dom: ">=16.14.0"
-  checksum: 10/c598a6132fae292c96aee6a56c42e038c3e098f5437c8125c6e683242489304284deab2e94faa69113aa664ac4b8bf02da86576e2a2a9d32d7f1e06daab285f9
+  checksum: 10/b2634e3aa895e7f7b34781365359a4df99a856690b479994066c510b2c774354f27164ac93e6be4f0a2055c9202865b2c58934cd94fa172048e92ef47401a2a3
   languageName: node
   linkType: hard
 
