@@ -58,6 +58,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ariakit/core@npm:0.4.13":
+  version: 0.4.13
+  resolution: "@ariakit/core@npm:0.4.13"
+  checksum: 10/47b6d1912fda7bed0d060d0e4b5a46b4fea0fb836d8c1500c8b6ae8192e48e38feb6b7a2ee734b433fc5ec145df3c22330724be429dc6f5f6c7d5ea0c7ef0895
+  languageName: node
+  linkType: hard
+
 "@ariakit/react-core@npm:0.4.13":
   version: 0.4.13
   resolution: "@ariakit/react-core@npm:0.4.13"
@@ -72,6 +79,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ariakit/react-core@npm:0.4.14":
+  version: 0.4.14
+  resolution: "@ariakit/react-core@npm:0.4.14"
+  dependencies:
+    "@ariakit/core": "npm:0.4.13"
+    "@floating-ui/dom": "npm:^1.0.0"
+    use-sync-external-store: "npm:^1.2.0"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10/3282b40bc543d37fe6b97ef7afe7c5b3a69bfd14220dbf66e1f141b5a95e4f84e3c2d1815f82af73218fdd714f3913bc0951a86694d0663e58d744a3a6d0aca5
+  languageName: node
+  linkType: hard
+
 "@ariakit/react@npm:^0.4.11":
   version: 0.4.13
   resolution: "@ariakit/react@npm:0.4.13"
@@ -81,6 +102,18 @@ __metadata:
     react: ^17.0.0 || ^18.0.0 || ^19.0.0
     react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
   checksum: 10/1656f519c71129ccb4f48d4442fb6bf71695cd671c1ed629cded7688dc6c2359a0cc7477c799a6dd2b40dcdf52252d711adc229d2cea7e2d938b61aabc6c3a16
+  languageName: node
+  linkType: hard
+
+"@ariakit/react@npm:^0.4.13":
+  version: 0.4.14
+  resolution: "@ariakit/react@npm:0.4.14"
+  dependencies:
+    "@ariakit/react-core": "npm:0.4.14"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10/6a4ddb47453c6c46bf378389b22ef1bec6daed0c968c39e658f36fd1f91070c2f83863a471b43812bdf13803d7bd286e4ca852ac1c6033fb276f9a06e27c2553
   languageName: node
   linkType: hard
 
@@ -1725,6 +1758,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/dom@npm:^1.6.12":
+  version: 1.6.12
+  resolution: "@floating-ui/dom@npm:1.6.12"
+  dependencies:
+    "@floating-ui/core": "npm:^1.6.0"
+    "@floating-ui/utils": "npm:^0.2.8"
+  checksum: 10/5c8e5fdcd3843140a606ab6dc6c12ad740f44e66b898966ef877393faaede0bbe14586e1049e2c2f08856437da8847e884a2762e78275fefa65a5a9cd71e580d
+  languageName: node
+  linkType: hard
+
 "@floating-ui/react-dom@npm:^1.3.0":
   version: 1.3.0
   resolution: "@floating-ui/react-dom@npm:1.3.0"
@@ -1857,7 +1900,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-codegen/plugin-helpers@npm:^5.0.3, @graphql-codegen/plugin-helpers@npm:^5.0.4, @graphql-codegen/plugin-helpers@npm:latest":
+"@graphql-codegen/plugin-helpers@npm:^5.0.3, @graphql-codegen/plugin-helpers@npm:latest":
   version: 5.0.4
   resolution: "@graphql-codegen/plugin-helpers@npm:5.0.4"
   dependencies:
@@ -1870,6 +1913,22 @@ __metadata:
   peerDependencies:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
   checksum: 10/8162bffc76bf0d6cd9ff83c98b8a5e5eadbb1bc0de2d273480af937a27ca8fbf74aae72a617303a9d4121b9914eb9af065858f07c0ac13cd169b53a9bcead799
+  languageName: node
+  linkType: hard
+
+"@graphql-codegen/plugin-helpers@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "@graphql-codegen/plugin-helpers@npm:5.1.0"
+  dependencies:
+    "@graphql-tools/utils": "npm:^10.0.0"
+    change-case-all: "npm:1.0.15"
+    common-tags: "npm:1.8.2"
+    import-from: "npm:4.0.0"
+    lodash: "npm:~4.17.0"
+    tslib: "npm:~2.6.0"
+  peerDependencies:
+    graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: 10/415e79be90a1f5d289c9cd7f0a581c277d544be1f7136d7f74f5f067c205eb35fd6cd522455866fa8105f241eec4c77bebe02eef007d5021a7b7a453b85b2001
   languageName: node
   linkType: hard
 
@@ -1886,41 +1945,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-codegen/typescript-operations@npm:^4.2.3":
-  version: 4.3.0
-  resolution: "@graphql-codegen/typescript-operations@npm:4.3.0"
+"@graphql-codegen/typescript-operations@npm:^4.3.1":
+  version: 4.4.0
+  resolution: "@graphql-codegen/typescript-operations@npm:4.4.0"
   dependencies:
-    "@graphql-codegen/plugin-helpers": "npm:^5.0.4"
-    "@graphql-codegen/typescript": "npm:^4.1.0"
-    "@graphql-codegen/visitor-plugin-common": "npm:5.4.0"
+    "@graphql-codegen/plugin-helpers": "npm:^5.1.0"
+    "@graphql-codegen/typescript": "npm:^4.1.2"
+    "@graphql-codegen/visitor-plugin-common": "npm:5.6.0"
     auto-bind: "npm:~4.0.0"
     tslib: "npm:~2.6.0"
   peerDependencies:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 10/0c178d7bd72284359aab0e523d2033cfa4ee4ebe1c0ff2c98b41a0fd09c5396e7f8a1e51f1f39374e0d29a5445193047f2da383230ae1ac1a6b41fefa53d8fac
+  checksum: 10/9b4d3dfe2641ee8b8f06a004af733fca05f93a8b8274f44296f61a43e313d94954cd2fcfeb9dc63e852116fc7e017b93cce94ca49fa433025412efc185a61323
   languageName: node
   linkType: hard
 
-"@graphql-codegen/typescript@npm:^4.0.9, @graphql-codegen/typescript@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@graphql-codegen/typescript@npm:4.1.0"
+"@graphql-codegen/typescript@npm:^4.1.1, @graphql-codegen/typescript@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "@graphql-codegen/typescript@npm:4.1.2"
   dependencies:
-    "@graphql-codegen/plugin-helpers": "npm:^5.0.4"
+    "@graphql-codegen/plugin-helpers": "npm:^5.1.0"
     "@graphql-codegen/schema-ast": "npm:^4.0.2"
-    "@graphql-codegen/visitor-plugin-common": "npm:5.4.0"
+    "@graphql-codegen/visitor-plugin-common": "npm:5.6.0"
     auto-bind: "npm:~4.0.0"
     tslib: "npm:~2.6.0"
   peerDependencies:
     graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 10/e18bebd494fcfd9f76b1bdb4cbf75ae4de5fc9bc87a675eae0859c5ad3d073c9ae1d8452819a2e404e281602c44dcbb03659725c3949ae6829cc99c138edf96c
+  checksum: 10/a0a853a403df6b5a4e4a3d342fad86bb5daaa6aaa3b10c922529e43efe8b38e9bf95f17d4086698dfa30efc8d94aef85f4ac890f80107ce11a67aa1db76e1ca4
   languageName: node
   linkType: hard
 
-"@graphql-codegen/visitor-plugin-common@npm:5.4.0":
-  version: 5.4.0
-  resolution: "@graphql-codegen/visitor-plugin-common@npm:5.4.0"
+"@graphql-codegen/visitor-plugin-common@npm:5.6.0":
+  version: 5.6.0
+  resolution: "@graphql-codegen/visitor-plugin-common@npm:5.6.0"
   dependencies:
-    "@graphql-codegen/plugin-helpers": "npm:^5.0.4"
+    "@graphql-codegen/plugin-helpers": "npm:^5.1.0"
     "@graphql-tools/optimize": "npm:^2.0.0"
     "@graphql-tools/relay-operation-optimizer": "npm:^7.0.0"
     "@graphql-tools/utils": "npm:^10.0.0"
@@ -1932,7 +1991,7 @@ __metadata:
     tslib: "npm:~2.6.0"
   peerDependencies:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 10/cbfa918b6a5ee5ab4c5edf0af53adaf5b4bbc5e7a0a1355fd0736ec859a9b41f4d5313489d6fa13963dc7d5724ff16f1c00c2f31ffe2b7f201a74a900ad818f9
+  checksum: 10/3e398546cc219575a8a4cd10f554148a3db94aef4752c28cc6897b81b40caa7e42899680b65f7b57288b61f076f2aca71d90f7acdd5e05b47b8aca3c9e0f0146
   languageName: node
   linkType: hard
 
@@ -1979,6 +2038,19 @@ __metadata:
   peerDependencies:
     graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
   checksum: 10/5df76d4083445c05a894367833c759f4930784420c7464d17d445e745548d2bfb978f92a9cb6ff330eb7dcf9c21013263c78f1866de1975e87d4029fbe79ffb0
+  languageName: node
+  linkType: hard
+
+"@graphql-inspector/core@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@graphql-inspector/core@npm:6.2.0"
+  dependencies:
+    dependency-graph: "npm:1.0.0"
+    object-inspect: "npm:1.13.2"
+    tslib: "npm:2.6.2"
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: 10/ab2a1c6ec3238040ad4cbdfac234c7e211f75465b403feb50d8aeaf2bbf546b068a14657ef485b02d3fc962f0007cabb26b9798303ae96f6a24839268edfba4d
   languageName: node
   linkType: hard
 
@@ -2264,6 +2336,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jsep-plugin/assignment@npm:^1.2.1":
+  version: 1.3.0
+  resolution: "@jsep-plugin/assignment@npm:1.3.0"
+  peerDependencies:
+    jsep: ^0.4.0||^1.0.0
+  checksum: 10/0c93b703d84af95b4be9fb6c23fbdbe7c7b6985b41c98fd10386cd54686ed1eb751cb39f5d54abcb621e4da2a0900a3b2a852e5bf7f2d322b756db3b22e42a45
+  languageName: node
+  linkType: hard
+
+"@jsep-plugin/regex@npm:^1.0.3":
+  version: 1.0.4
+  resolution: "@jsep-plugin/regex@npm:1.0.4"
+  peerDependencies:
+    jsep: ^0.4.0||^1.0.0
+  checksum: 10/0ea6ba81f03955972b762fd9fbc8e3fd7e1c1c12e52ce3d4366e23c0a63c8bff8528687b8b3d8f641cf9f626f8bf5a7841efcd31a2489fe967e1900e5738ee3a
+  languageName: node
+  linkType: hard
+
 "@juggle/resize-observer@npm:^3.4.0":
   version: 3.4.0
   resolution: "@juggle/resize-observer@npm:3.4.0"
@@ -2529,7 +2619,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-checkbox@npm:^1.1.1":
+"@radix-ui/react-checkbox@npm:^1.1.1, @radix-ui/react-checkbox@npm:^1.1.2":
   version: 1.1.2
   resolution: "@radix-ui/react-checkbox@npm:1.1.2"
   dependencies:
@@ -2679,7 +2769,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dialog@npm:^1.0.4, @radix-ui/react-dialog@npm:^1.1.1":
+"@radix-ui/react-dialog@npm:^1.0.4, @radix-ui/react-dialog@npm:^1.1.1, @radix-ui/react-dialog@npm:^1.1.2":
   version: 1.1.2
   resolution: "@radix-ui/react-dialog@npm:1.1.2"
   dependencies:
@@ -2771,7 +2861,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-dropdown-menu@npm:^2.0.5, @radix-ui/react-dropdown-menu@npm:^2.1.1":
+"@radix-ui/react-dropdown-menu@npm:^2.0.5, @radix-ui/react-dropdown-menu@npm:^2.1.1, @radix-ui/react-dropdown-menu@npm:^2.1.2":
   version: 2.1.2
   resolution: "@radix-ui/react-dropdown-menu@npm:2.1.2"
   dependencies:
@@ -2883,7 +2973,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-id@npm:1.1.0":
+"@radix-ui/react-id@npm:1.1.0, @radix-ui/react-id@npm:^1.1.0":
   version: 1.1.0
   resolution: "@radix-ui/react-id@npm:1.1.0"
   dependencies:
@@ -2934,7 +3024,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-popover@npm:^1.1.1":
+"@radix-ui/react-popover@npm:^1.1.1, @radix-ui/react-popover@npm:^1.1.2":
   version: 1.1.2
   resolution: "@radix-ui/react-popover@npm:1.1.2"
   dependencies:
@@ -3096,7 +3186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-primitive@npm:2.0.0":
+"@radix-ui/react-primitive@npm:2.0.0, @radix-ui/react-primitive@npm:^2.0.0":
   version: 2.0.0
   resolution: "@radix-ui/react-primitive@npm:2.0.0"
   dependencies:
@@ -3290,6 +3380,36 @@ __metadata:
     "@types/react-dom":
       optional: true
   checksum: 10/6a0eeabee30173b3d885c12c666614d673352037c0018a57e4cf220d4da73b6ebefa8610fe26a99d83fc00672a2b7417d8dc194096dd106865de1326d8cd9166
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-tooltip@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "@radix-ui/react-tooltip@npm:1.1.4"
+  dependencies:
+    "@radix-ui/primitive": "npm:1.1.0"
+    "@radix-ui/react-compose-refs": "npm:1.1.0"
+    "@radix-ui/react-context": "npm:1.1.1"
+    "@radix-ui/react-dismissable-layer": "npm:1.1.1"
+    "@radix-ui/react-id": "npm:1.1.0"
+    "@radix-ui/react-popper": "npm:1.2.0"
+    "@radix-ui/react-portal": "npm:1.1.2"
+    "@radix-ui/react-presence": "npm:1.1.1"
+    "@radix-ui/react-primitive": "npm:2.0.0"
+    "@radix-ui/react-slot": "npm:1.1.0"
+    "@radix-ui/react-use-controllable-state": "npm:1.1.0"
+    "@radix-ui/react-visually-hidden": "npm:1.1.0"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+    react-dom: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10/de595811329ce789e770fd3c361c6b6e7dde3f0faa4b31d8cf72adb59036734d8389c3116756cd127dd1e7674ae1df5fa2365cf201f76413f26b24662299bde4
   languageName: node
   linkType: hard
 
@@ -3608,19 +3728,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^5.1.2":
-  version: 5.1.2
-  resolution: "@rollup/pluginutils@npm:5.1.2"
+"@rollup/pluginutils@npm:^5.1.3":
+  version: 5.1.3
+  resolution: "@rollup/pluginutils@npm:5.1.3"
   dependencies:
     "@types/estree": "npm:^1.0.0"
     estree-walker: "npm:^2.0.2"
-    picomatch: "npm:^2.3.1"
+    picomatch: "npm:^4.0.2"
   peerDependencies:
     rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 10/cc1fe3285ab48915a6535ab2f0c90dc511bd3e63143f8e9994bb036c6c5071fd14d641cff6c89a7fde6a4faa85227d4e2cf46ee36b7d962099e0b9e4c9b8a4b0
+  checksum: 10/da24956c4f7ec0aed63a2dd6c6dd64d8ad90155918056e69adda6fbb7b96c607300079805bc63f2e64e33ba256802367301a578d020a22262f408bde98ca3643
   languageName: node
   linkType: hard
 
@@ -3909,15 +4029,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/app@npm:2.1.10":
-  version: 2.1.10
-  resolution: "@tinacms/app@npm:2.1.10"
+"@tinacms/app@npm:2.1.12":
+  version: 2.1.12
+  resolution: "@tinacms/app@npm:2.1.12"
   dependencies:
     "@graphiql/toolkit": "npm:0.8.4"
     "@headlessui/react": "npm:2.1.8"
     "@heroicons/react": "npm:^1.0.6"
     "@monaco-editor/react": "npm:4.4.5"
-    "@tinacms/mdx": "npm:1.5.0"
+    "@tinacms/mdx": "npm:1.5.2"
     final-form: "npm:4.20.10"
     graphiql: "npm:3.0.0-alpha.1"
     graphql: "npm:15.8.0"
@@ -3925,35 +4045,35 @@ __metadata:
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:6.3.0"
-    tinacms: "npm:2.3.0"
-    typescript: "npm:^5.6.2"
+    tinacms: "npm:2.5.0"
+    typescript: "npm:^5.6.3"
     zod: "npm:^3.23.8"
-  checksum: 10/36032ad988793a010c824e3564cbd963c3a302ab479748c4c6d0e2177306ceb95fc261830cabc679555e88bd213df793fc58ee4c66ff02127dbe7f95bb0badb0
+  checksum: 10/31aef788c8c5a248fd5d8b6363528fa574f71e05579c88eb9d8354727d8080e89aefd3ced77be495be5df07b0d3f4b2ebfcd655862947457a8e652ccf8a1d405
   languageName: node
   linkType: hard
 
-"@tinacms/cli@npm:^1.6.10":
-  version: 1.6.10
-  resolution: "@tinacms/cli@npm:1.6.10"
+"@tinacms/cli@npm:^1.6.12":
+  version: 1.6.12
+  resolution: "@tinacms/cli@npm:1.6.12"
   dependencies:
     "@graphql-codegen/core": "npm:^2.6.8"
     "@graphql-codegen/plugin-helpers": "npm:latest"
-    "@graphql-codegen/typescript": "npm:^4.0.9"
-    "@graphql-codegen/typescript-operations": "npm:^4.2.3"
+    "@graphql-codegen/typescript": "npm:^4.1.1"
+    "@graphql-codegen/typescript-operations": "npm:^4.3.1"
     "@graphql-codegen/visitor-plugin-common": "npm:^4.1.2"
     "@graphql-inspector/core": "npm:^4.2.2"
     "@graphql-tools/graphql-file-loader": "npm:^7.5.17"
     "@graphql-tools/load": "npm:^7.8.14"
-    "@rollup/pluginutils": "npm:^5.1.2"
+    "@rollup/pluginutils": "npm:^5.1.3"
     "@svgr/core": "npm:8.1.0"
     "@tailwindcss/aspect-ratio": "npm:^0.4.2"
     "@tailwindcss/container-queries": "npm:^0.1.1"
     "@tailwindcss/typography": "npm:^0.5.15"
-    "@tinacms/app": "npm:2.1.10"
-    "@tinacms/graphql": "npm:1.5.6"
-    "@tinacms/metrics": "npm:1.0.7"
-    "@tinacms/schema-tools": "npm:1.6.6"
-    "@tinacms/search": "npm:1.0.33"
+    "@tinacms/app": "npm:2.1.12"
+    "@tinacms/graphql": "npm:1.5.8"
+    "@tinacms/metrics": "npm:1.0.8"
+    "@tinacms/schema-tools": "npm:1.6.8"
+    "@tinacms/search": "npm:1.0.35"
     "@vitejs/plugin-react": "npm:3.1.0"
     altair-express-middleware: "npm:^7.3.6"
     auto-bind: "npm:^4.0.0"
@@ -3979,16 +4099,16 @@ __metadata:
     progress: "npm:^2.0.3"
     prompts: "npm:^2.4.2"
     readable-stream: "npm:^4.5.2"
-    tailwindcss: "npm:^3.4.13"
-    tinacms: "npm:2.3.0"
+    tailwindcss: "npm:^3.4.15"
+    tinacms: "npm:2.5.0"
     typanion: "npm:3.13.0"
-    typescript: "npm:^5.6.2"
+    typescript: "npm:^5.6.3"
     vite: "npm:^4.5.5"
-    yup: "npm:^0.32.11"
+    yup: "npm:^1.4.0"
     zod: "npm:^3.23.8"
   bin:
     tinacms: bin/tinacms
-  checksum: 10/fa04ca789bedf16698f08ddc23dfd9f76d69d7d542bc55565f65aca84f381ce24b13be351517731e62623d9711635d85b9214bb4a9c4faed5fae47f25abfad4a
+  checksum: 10/0d02cf930f7d4f8405472140921928811b53bb7fa6ef12a61b21bdeb8f2596ad51d46682b7f971e27850dbf0b62cd751adb3d5e63e8f98f600dfe547e40dbeeb
   languageName: node
   linkType: hard
 
@@ -4020,6 +4140,37 @@ __metadata:
     scmp: "npm:^2.1.0"
     yup: "npm:^0.32.11"
   checksum: 10/8dd5d2d30f35122058fe1f49e119deea6d85b54e14329d9a99876bf881d52f26b7a5b0dc714f74995a5b49b513f51b84dd31ae5c98c3e78aea66d97e55587a94
+  languageName: node
+  linkType: hard
+
+"@tinacms/graphql@npm:1.5.8":
+  version: 1.5.8
+  resolution: "@tinacms/graphql@npm:1.5.8"
+  dependencies:
+    "@iarna/toml": "npm:^2.2.5"
+    "@tinacms/mdx": "npm:1.5.2"
+    "@tinacms/schema-tools": "npm:1.6.8"
+    abstract-level: "npm:^1.0.4"
+    date-fns: "npm:^2.30.0"
+    fast-glob: "npm:^3.3.2"
+    fs-extra: "npm:^11.2.0"
+    glob-parent: "npm:^6.0.2"
+    graphql: "npm:15.8.0"
+    gray-matter: "npm:^4.0.3"
+    isomorphic-git: "npm:^1.27.1"
+    js-sha1: "npm:^0.6.0"
+    js-yaml: "npm:^3.14.1"
+    jsonpath-plus: "npm:10.1.0"
+    lodash.clonedeep: "npm:^4.5.0"
+    lodash.set: "npm:^4.3.2"
+    lodash.uniqby: "npm:^4.7.0"
+    many-level: "npm:^2.0.0"
+    micromatch: "npm:4.0.8"
+    normalize-path: "npm:^3.0.0"
+    readable-stream: "npm:^4.5.2"
+    scmp: "npm:^2.1.0"
+    yup: "npm:^0.32.11"
+  checksum: 10/baefcc919e4271e8251c7e2e28cb4d3324b2c824fb5d90adb7235519448bd7bc5b4ecae4508cc52f1bd4a3bbf147e02736b2ac348900e3f90b3fa0b46af2a952
   languageName: node
   linkType: hard
 
@@ -4061,14 +4212,52 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tinacms/metrics@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@tinacms/metrics@npm:1.0.7"
+"@tinacms/mdx@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@tinacms/mdx@npm:1.5.2"
+  dependencies:
+    "@tinacms/schema-tools": "npm:1.6.8"
+    acorn: "npm:8.8.2"
+    ccount: "npm:2.0.1"
+    estree-util-is-identifier-name: "npm:2.1.0"
+    lodash.flatten: "npm:4.4.0"
+    mdast-util-compact: "npm:4.1.1"
+    mdast-util-directive: "npm:2.2.4"
+    mdast-util-from-markdown: "npm:1.3.0"
+    mdast-util-gfm: "npm:2.0.2"
+    mdast-util-mdx-jsx: "npm:2.1.2"
+    mdast-util-to-markdown: "npm:1.5.0"
+    micromark-extension-gfm: "npm:2.0.3"
+    micromark-factory-mdx-expression: "npm:1.0.7"
+    micromark-factory-space: "npm:1.0.0"
+    micromark-factory-whitespace: "npm:1.0.0"
+    micromark-util-character: "npm:1.1.0"
+    micromark-util-symbol: "npm:1.0.1"
+    micromark-util-types: "npm:1.0.2"
+    parse-entities: "npm:4.0.1"
+    prettier: "npm:^2.8.8"
+    remark: "npm:14.0.2"
+    remark-gfm: "npm:^2.0.0"
+    remark-mdx: "npm:2.3.0"
+    stringify-entities: "npm:4.0.3"
+    typedoc: "npm:^0.26.11"
+    unist-util-source: "npm:4.0.2"
+    unist-util-stringify-position: "npm:3.0.3"
+    unist-util-visit: "npm:4.1.2"
+    uvu: "npm:0.5.6"
+    vfile-message: "npm:3.1.4"
+  checksum: 10/0dc4e68cc3dbe9c5786367ca0eb901ce9eaea35c2bccb61d8508c3546a20b7ca4879601c9f4869329004522cf1fcbc24e9b4a59243041d55a880f90db29c8ad8
+  languageName: node
+  linkType: hard
+
+"@tinacms/metrics@npm:1.0.8":
+  version: 1.0.8
+  resolution: "@tinacms/metrics@npm:1.0.8"
   dependencies:
     isomorphic-fetch: "npm:^3.0.0"
   peerDependencies:
     fs-extra: ^9.0.1
-  checksum: 10/c6c5cee262ab33227c4a2500fb1d27ace4b2c37f4e3fb5d129dccb582cde52b9ddb44e9667e5cfdf9b5da2209384ac5e9b443987f5381fa553d4eeb219a6d141
+  checksum: 10/341453cbebd986aefed305d145cca0c47f70389cc6489d486f7f792fbe2025e3f4907d68e1f76ccf9fa167201a912d95571eb5f298f37ee439a60998be7f1120
   languageName: node
   linkType: hard
 
@@ -4086,6 +4275,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tinacms/schema-tools@npm:1.6.8":
+  version: 1.6.8
+  resolution: "@tinacms/schema-tools@npm:1.6.8"
+  dependencies:
+    picomatch-browser: "npm:2.2.6"
+    url-pattern: "npm:^1.0.3"
+    zod: "npm:^3.23.8"
+  peerDependencies:
+    react: ">=16.14.0"
+    yup: ^0.32.0
+  checksum: 10/a41c550c7b8a0a4059ac0d8db064c266cb5614ed70dd2bedecad2b3a6d5b84d4cde2bfbd438b226b7b054a8a17db5e594c0b2cbe5b8dc7871aa37e21098b1015
+  languageName: node
+  linkType: hard
+
 "@tinacms/search@npm:1.0.33":
   version: 1.0.33
   resolution: "@tinacms/search@npm:1.0.33"
@@ -4100,6 +4303,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tinacms/search@npm:1.0.35":
+  version: 1.0.35
+  resolution: "@tinacms/search@npm:1.0.35"
+  dependencies:
+    "@tinacms/graphql": "npm:1.5.8"
+    "@tinacms/schema-tools": "npm:1.6.8"
+    memory-level: "npm:^1.0.0"
+    search-index: "npm:4.0.0"
+    sqlite-level: "npm:^1.2.0"
+    stopword: "npm:^3.1.1"
+  checksum: 10/94f9c965ccdb0a5f3594f0d3933d098308cbf926660a32aafe5996c2dcb04b06037501420f437fb4f358a145ca2b816933e0525fb9f681989f46d2c8bf25083c
+  languageName: node
+  linkType: hard
+
 "@tinacms/starter@workspace:.":
   version: 0.0.0-use.local
   resolution: "@tinacms/starter@workspace:."
@@ -4107,7 +4324,7 @@ __metadata:
     "@headlessui/react": "npm:^2.1.10"
     "@svgr/webpack": "npm:^8.1.0"
     "@tailwindcss/typography": "npm:^0.5.15"
-    "@tinacms/cli": "npm:^1.6.10"
+    "@tinacms/cli": "npm:^1.6.12"
     "@types/js-cookie": "npm:^3.0.6"
     "@types/node": "npm:^22.7.9"
     "@types/react": "npm:^18.3.12"
@@ -6319,6 +6536,21 @@ __metadata:
     react: ^18.0.0
     react-dom: ^18.0.0
   checksum: 10/7a0675783d9b12828c30b044993d1ecf0e9230984c04f7a1714025804d34294b2b0f8958f30b26fe3b5be276b3cd874dbe1d0bc27cd25d15daa06adfcd3feb85
+  languageName: node
+  linkType: hard
+
+"cmdk@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "cmdk@npm:1.0.4"
+  dependencies:
+    "@radix-ui/react-dialog": "npm:^1.1.2"
+    "@radix-ui/react-id": "npm:^1.1.0"
+    "@radix-ui/react-primitive": "npm:^2.0.0"
+    use-sync-external-store: "npm:^1.2.2"
+  peerDependencies:
+    react: ^18 || ^19 || ^19.0.0-rc
+    react-dom: ^18 || ^19 || ^19.0.0-rc
+  checksum: 10/768e7c78c09a97b626e53893af2bba9cb1544cf060a9a0822483eb12bbea64b221da1a9022f8397a376ee98a0789110d098965ae2d21a3d81194cfd2a4c0bafa
   languageName: node
   linkType: hard
 
@@ -8946,7 +9178,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jiti@npm:^1.21.0":
+"jiti@npm:^1.21.0, jiti@npm:^1.21.6":
   version: 1.21.6
   resolution: "jiti@npm:1.21.6"
   bin:
@@ -9047,6 +9279,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsep@npm:^1.3.9":
+  version: 1.4.0
+  resolution: "jsep@npm:1.4.0"
+  checksum: 10/935824fe6ac28fcff3cd13878f508f99f6c13e7f0f53ec9fca0d3db465e6dd15f8af030bcdc75a38b07c78359c656647435923a26aceb91607027021f00c17f2
+  languageName: node
+  linkType: hard
+
 "jsesc@npm:^3.0.2, jsesc@npm:~3.0.2":
   version: 3.0.2
   resolution: "jsesc@npm:3.0.2"
@@ -9115,6 +9354,20 @@ __metadata:
     graceful-fs:
       optional: true
   checksum: 10/03014769e7dc77d4cf05fa0b534907270b60890085dd5e4d60a382ff09328580651da0b8b4cdf44d91e4c8ae64d91791d965f05707beff000ed494a38b6fec85
+  languageName: node
+  linkType: hard
+
+"jsonpath-plus@npm:10.1.0":
+  version: 10.1.0
+  resolution: "jsonpath-plus@npm:10.1.0"
+  dependencies:
+    "@jsep-plugin/assignment": "npm:^1.2.1"
+    "@jsep-plugin/regex": "npm:^1.0.3"
+    jsep: "npm:^1.3.9"
+  bin:
+    jsonpath: bin/jsonpath-cli.js
+    jsonpath-plus: bin/jsonpath-cli.js
+  checksum: 10/d872af63b667c43e7563095b4c88f61be5b298c1ddc1d019b3684f0ba1addcba24857e78058b00c52511f52044e3dfea16f83869facfd6ced7430ebd6257f7ab
   languageName: node
   linkType: hard
 
@@ -10520,7 +10773,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:4.0.8, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
+"micromatch@npm:4.0.8, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5, micromatch@npm:^4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -11040,7 +11293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-inspect@npm:^1.13.1":
+"object-inspect@npm:1.13.2, object-inspect@npm:^1.13.1":
   version: 1.13.2
   resolution: "object-inspect@npm:1.13.2"
   checksum: 10/7ef65583b6397570a17c56f0c1841e0920e83900f2c94638927abb7b81ac08a19c7aae135bd9dcca96208cac0c7332b4650fb927f027b0cf92d71df2990d0561
@@ -11352,7 +11605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^1.0.0, picocolors@npm:^1.0.1, picocolors@npm:^1.1.0":
+"picocolors@npm:^1.0.0, picocolors@npm:^1.0.1, picocolors@npm:^1.1.0, picocolors@npm:^1.1.1":
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
   checksum: 10/e1cf46bf84886c79055fdfa9dcb3e4711ad259949e3565154b004b260cd356c5d54b31a1437ce9782624bf766272fe6b0154f5f0c744fb7af5d454d2b60db045
@@ -11370,6 +11623,13 @@ __metadata:
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 10/60c2595003b05e4535394d1da94850f5372c9427ca4413b71210f437f7b2ca091dbd611c45e8b37d10036fa8eade25c1b8951654f9d3973bfa66a2ff4d3b08bc
+  languageName: node
+  linkType: hard
+
+"picomatch@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "picomatch@npm:4.0.2"
+  checksum: 10/ce617b8da36797d09c0baacb96ca8a44460452c89362d7cb8f70ca46b4158ba8bc3606912de7c818eb4a939f7f9015cef3c766ec8a0c6bfc725fdc078e39c717
   languageName: node
   linkType: hard
 
@@ -11443,7 +11703,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-load-config@npm:^4.0.1":
+"postcss-load-config@npm:^4.0.1, postcss-load-config@npm:^4.0.2":
   version: 4.0.2
   resolution: "postcss-load-config@npm:4.0.2"
   dependencies:
@@ -11461,7 +11721,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-nested@npm:^6.0.1":
+"postcss-nested@npm:^6.0.1, postcss-nested@npm:^6.2.0":
   version: 6.2.0
   resolution: "postcss-nested@npm:6.2.0"
   dependencies:
@@ -11495,7 +11755,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-selector-parser@npm:^6.0.11, postcss-selector-parser@npm:^6.1.0, postcss-selector-parser@npm:^6.1.1":
+"postcss-selector-parser@npm:^6.0.11, postcss-selector-parser@npm:^6.1.0, postcss-selector-parser@npm:^6.1.1, postcss-selector-parser@npm:^6.1.2":
   version: 6.1.2
   resolution: "postcss-selector-parser@npm:6.1.2"
   dependencies:
@@ -12317,7 +12577,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:^1.1.7, resolve@npm:^1.14.2, resolve@npm:^1.22.2":
+"resolve@npm:^1.1.7, resolve@npm:^1.14.2, resolve@npm:^1.22.2, resolve@npm:^1.22.8":
   version: 1.22.8
   resolution: "resolve@npm:1.22.8"
   dependencies:
@@ -12330,7 +12590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.8#optional!builtin<compat/resolve>":
   version: 1.22.8
   resolution: "resolve@patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
   dependencies:
@@ -13073,7 +13333,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sucrase@npm:^3.32.0":
+"sucrase@npm:^3.32.0, sucrase@npm:^3.35.0":
   version: 3.35.0
   resolution: "sucrase@npm:3.35.0"
   dependencies:
@@ -13163,7 +13423,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.4.13, tailwindcss@npm:^3.4.14":
+"tailwind-merge@npm:^2.5.4":
+  version: 2.5.5
+  resolution: "tailwind-merge@npm:2.5.5"
+  checksum: 10/a5bfa32559d95bacc422225e0287d7d023d72be97be41f34bba41651a9e51e37ea0524ade7f0b7ef96b5486de282e020a645597fd7f8c5e6c37562f0739a96b9
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^3.4.14":
   version: 3.4.14
   resolution: "tailwindcss@npm:3.4.14"
   dependencies:
@@ -13193,6 +13460,39 @@ __metadata:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
   checksum: 10/2b75b697d4859ce813947b043edf19ed61f80321914743a00ba883f327016e4f7f9414823b6ccffeb1359524335c47933d970da5ce2158329f43e9a89d934eb0
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^3.4.15":
+  version: 3.4.15
+  resolution: "tailwindcss@npm:3.4.15"
+  dependencies:
+    "@alloc/quick-lru": "npm:^5.2.0"
+    arg: "npm:^5.0.2"
+    chokidar: "npm:^3.6.0"
+    didyoumean: "npm:^1.2.2"
+    dlv: "npm:^1.1.3"
+    fast-glob: "npm:^3.3.2"
+    glob-parent: "npm:^6.0.2"
+    is-glob: "npm:^4.0.3"
+    jiti: "npm:^1.21.6"
+    lilconfig: "npm:^2.1.0"
+    micromatch: "npm:^4.0.8"
+    normalize-path: "npm:^3.0.0"
+    object-hash: "npm:^3.0.0"
+    picocolors: "npm:^1.1.1"
+    postcss: "npm:^8.4.47"
+    postcss-import: "npm:^15.1.0"
+    postcss-js: "npm:^4.0.1"
+    postcss-load-config: "npm:^4.0.2"
+    postcss-nested: "npm:^6.2.0"
+    postcss-selector-parser: "npm:^6.1.2"
+    resolve: "npm:^1.22.8"
+    sucrase: "npm:^3.35.0"
+  bin:
+    tailwind: lib/cli.js
+    tailwindcss: lib/cli.js
+  checksum: 10/670bc70ae98d36601990424067f1164eebcbe97493ce8d314e8baa85eb47a6b92caabcea3046dfa9e3888a40a4807c123e12dfa2e05d884ff0583c6a1b647cb7
   languageName: node
   linkType: hard
 
@@ -13267,7 +13567,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinacms@npm:2.3.0, tinacms@npm:^2.3.0":
+"tinacms@npm:2.5.0":
+  version: 2.5.0
+  resolution: "tinacms@npm:2.5.0"
+  dependencies:
+    "@ariakit/react": "npm:^0.4.13"
+    "@floating-ui/dom": "npm:^1.6.12"
+    "@floating-ui/react-dom": "npm:^2.1.2"
+    "@graphql-inspector/core": "npm:^6.2.0"
+    "@headlessui/react": "npm:2.1.8"
+    "@heroicons/react": "npm:^1.0.6"
+    "@monaco-editor/react": "npm:4.4.5"
+    "@radix-ui/react-checkbox": "npm:^1.1.2"
+    "@radix-ui/react-dialog": "npm:^1.1.2"
+    "@radix-ui/react-dropdown-menu": "npm:^2.1.2"
+    "@radix-ui/react-popover": "npm:^1.1.2"
+    "@radix-ui/react-separator": "npm:^1.1.0"
+    "@radix-ui/react-slot": "npm:^1.1.0"
+    "@radix-ui/react-toolbar": "npm:^1.1.0"
+    "@radix-ui/react-tooltip": "npm:^1.1.4"
+    "@react-hook/window-size": "npm:^3.1.1"
+    "@tinacms/mdx": "npm:1.5.2"
+    "@tinacms/schema-tools": "npm:1.6.8"
+    "@tinacms/search": "npm:1.0.35"
+    "@udecode/cn": "npm:^33.0.0"
+    "@udecode/plate": "npm:^36.5.9"
+    "@udecode/plate-autoformat": "npm:^36.5.6"
+    "@udecode/plate-block-quote": "npm:^36.0.0"
+    "@udecode/plate-code-block": "npm:^36.5.6"
+    "@udecode/plate-combobox": "npm:^36.0.0"
+    "@udecode/plate-common": "npm:^36.5.9"
+    "@udecode/plate-floating": "npm:^36.3.8"
+    "@udecode/plate-heading": "npm:^36.0.12"
+    "@udecode/plate-indent-list": "npm:^36.5.2"
+    "@udecode/plate-link": "npm:^36.5.9"
+    "@udecode/plate-list": "npm:^36.5.2"
+    "@udecode/plate-paragraph": "npm:^36.0.0"
+    "@udecode/plate-resizable": "npm:36.0.0"
+    "@udecode/plate-slash-command": "npm:^36.0.0"
+    "@udecode/plate-table": "npm:36.5.8"
+    class-variance-authority: "npm:^0.7.0"
+    clsx: "npm:^2.1.1"
+    cmdk: "npm:^1.0.4"
+    color-string: "npm:^1.9.1"
+    crypto-js: "npm:^4.2.0"
+    date-fns: "npm:2.30.0"
+    fetch-ponyfill: "npm:^7.1.0"
+    final-form: "npm:4.20.10"
+    final-form-arrays: "npm:^3.1.0"
+    final-form-set-field-data: "npm:^1.0.2"
+    graphql: "npm:15.8.0"
+    graphql-tag: "npm:^2.12.6"
+    is-hotkey: "npm:^0.2.0"
+    lodash.get: "npm:^4.4.2"
+    lodash.set: "npm:^4.3.2"
+    lucide-react: "npm:^0.424.0"
+    mermaid: "npm:9.3.0"
+    moment: "npm:2.29.4"
+    monaco-editor: "npm:0.31.0"
+    prism-react-renderer: "npm:^2.4.0"
+    prop-types: "npm:15.7.2"
+    react-beautiful-dnd: "npm:^13.1.1"
+    react-color: "npm:^2.19.3"
+    react-datetime: "npm:^3.2.0"
+    react-dropzone: "npm:14.2.3"
+    react-final-form: "npm:^6.5.9"
+    react-icons: "npm:^5.3.0"
+    react-onclickoutside: "npm:^6.13.1"
+    react-router-dom: "npm:6.3.0"
+    slate: "npm:^0.103.0"
+    slate-history: "npm:^0.100.0"
+    slate-hyperscript: "npm:^0.100.0"
+    slate-react: "npm:^0.107.1"
+    tailwind-merge: "npm:^2.5.4"
+    webfontloader: "npm:1.6.28"
+    yup: "npm:^1.4.0"
+    zod: "npm:^3.23.8"
+  peerDependencies:
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  checksum: 10/bdb3de2923ede666e0e75f6a4b0011cef1a246531cea6cf0969d2f4e889292fd9f3845ef40557e9e9f67e3403b1f313355c36bfcac0c3d04e33f45cae96f701c
+  languageName: node
+  linkType: hard
+
+"tinacms@npm:^2.3.0":
   version: 2.3.0
   resolution: "tinacms@npm:2.3.0"
   dependencies:
@@ -13566,6 +13949,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typedoc@npm:^0.26.11":
+  version: 0.26.11
+  resolution: "typedoc@npm:0.26.11"
+  dependencies:
+    lunr: "npm:^2.3.9"
+    markdown-it: "npm:^14.1.0"
+    minimatch: "npm:^9.0.5"
+    shiki: "npm:^1.16.2"
+    yaml: "npm:^2.5.1"
+  peerDependencies:
+    typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x || 5.0.x || 5.1.x || 5.2.x || 5.3.x || 5.4.x || 5.5.x || 5.6.x
+  bin:
+    typedoc: bin/typedoc
+  checksum: 10/969833b6ffaf1afc96ade3e2b6e594d2f072cc6e92bbc02e40f73c26e16eae8df01b63ccc4a445e2ef9ea2d3c7901ec7c8af476af526225a4b02ed014cdf88b7
+  languageName: node
+  linkType: hard
+
 "typedoc@npm:^0.26.7":
   version: 0.26.10
   resolution: "typedoc@npm:0.26.10"
@@ -13583,7 +13983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.6.2, typescript@npm:^5.6.3":
+"typescript@npm:^5.6.3":
   version: 5.6.3
   resolution: "typescript@npm:5.6.3"
   bin:
@@ -13593,7 +13993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.6.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.6.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.6.3#optional!builtin<compat/typescript>":
   version: 5.6.3
   resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=d69c25"
   bin:
@@ -13990,7 +14390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-sync-external-store@npm:1.2.2, use-sync-external-store@npm:^1.2.0":
+"use-sync-external-store@npm:1.2.2, use-sync-external-store@npm:^1.2.0, use-sync-external-store@npm:^1.2.2":
   version: 1.2.2
   resolution: "use-sync-external-store@npm:1.2.2"
   peerDependencies:
