@@ -44,8 +44,10 @@ blocks:
       stakeholders to make informed decisions.
 
 
-      **This project is funded via netidee 2022:
-      [https://www.netidee.at/crossd](https://www.netidee.at/crossd)**
+      **This project is funded via netidee 2022
+      [https://www.netidee.at/crossd](https://www.netidee.at/crossd)** and
+      netidee 2024
+      [https://www.netidee.at/crossd2](https://www.netidee.at/crossd2).
     image:
       src: /uploads/pexels-markus-winkler-12081252.webp
       alt: open source
