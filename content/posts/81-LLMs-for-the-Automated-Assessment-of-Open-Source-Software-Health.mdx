@@ -1,0 +1,44 @@
+---
+title: LLMs for the Automated Assessment of Open Source Software Health
+excerpt: |
+  In the CrOSSD2 project, we are exploring how LLMs can help assess the quality and maintainability of Open Source projects more accurately and efficiently.
+author: content/authors/Sebastian-Neumaier.md
+date: 2025-10-22T11:02:16.664Z
+---
+
+In the CrOSSD project, we are exploring how the health of Open Source Software (OSS) can be measured objectively and comparably. Sustainability, maintainability, and trustworthiness are crucial — especially for research software.
+
+On our CrOSSD Health platform, we already collect key metrics that describe the state of a project, such as:
+
+* [Active contributors](https://health.crossd.tech/doc#number-of-support-contributors)
+* [Issue resolution times](https://health.crossd.tech/doc#issues)
+* [Code churn](https://health.crossd.tech/doc#churn)
+* [Code dependencies](https://health.crossd.tech/doc#code-dependencies)
+
+These metrics are based, among other things, on the [CHAOSS metrics of the Linux Foundation](https://chaoss.community/kb-metrics-and-metrics-models/) and research such as [“Is this GitHub Project Maintained?” (2020)](https://arxiv.org/abs/2003.04755). They provide a solid foundation — but the real challenge lies in evaluating this information automatically, at scale, and in context. This is where we are currently exploring the use of LLMs and agentic AI systems.
+
+### LLMs as Enablers
+
+Many OSS metrics in the CrOSSD platform require combining multiple data sources, such as Git commits, issues, package dependencies, and release tags. LLMs can help interpret and enrich this partly unstructured information.
+
+For example, an LLM can automatically determine whether a commit represents a bug fix, a feature, or a refactoring. Research such as [Amit and Feitelson (2020) ](https://arxiv.org/abs/2007.10912)shows that these kinds of commit classifications significantly improve the explanatory power of traditional metrics.
+
+### From Numbers to Insights
+
+Metrics alone do not tell a story: if, for example, the churn value doubles, is that a problem or a sign of active development?
+
+LLMs can provide context here, for example by comparing projects, identifying trends, or generating reports:
+
+> “The project had 12 active contributors in the last quarter (–25%). The average issue resolution time increased from 3 to 7 days. Code churn is at 22%, above the median of comparable projects (18%).”
+
+LLMs achieve high accuracy in structured tasks, but they are not infallible. That is why transparency in metric calculation remains essential: users should be able to understand where a score comes from and how it was calculated. Metrics require context — high code churn can indicate either chaos or innovation.
+
+### Next Steps in the CrOSSD Project
+
+In the next phase, we plan to:
+
+1. **Use LLM-supported metric enrichment** — for example, automatically classifying commit and issue texts.
+2. **Generate automated health reports** — interpreted, textual summaries.
+3. **Perform validation** — regularly validating LLM results manually.
+
+Traditional OSS metrics, as currently implemented in CrOSSD (activity, churn, code dependencies, etc.), are well established. With LLMs, we aim to interpret them more intelligently and evaluate them automatically, thereby generating understandable, context-aware insights into the health of Open Source Software.
