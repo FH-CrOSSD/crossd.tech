@@ -5051,12 +5051,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.19.20":
-  version: 22.19.20
-  resolution: "@types/node@npm:22.19.20"
+"@types/node@npm:^25.9.2":
+  version: 25.9.2
+  resolution: "@types/node@npm:25.9.2"
   dependencies:
-    undici-types: "npm:~6.21.0"
-  checksum: 10/85a4c97c4b2b918e9b5a3afc980d5b97f0198a4b2baf1f9d06f0b059999ecab5e4833e9600898c0762dd0905a7c58baaffa064a5bd7f53fcb894cd259d532586
+    undici-types: "npm:>=7.24.0 <7.24.7"
+  checksum: 10/4ec76a3c9d51866cea5c6a5b17d52a2113b387e7fa812303bf20cc2949ff5e2b2bafcdef693c21ff8235d370ec2807961dc1075eb6bbea661916a5bbd84b6511
   languageName: node
   linkType: hard
 
@@ -5064,13 +5064,6 @@ __metadata:
   version: 1.26.6
   resolution: "@types/prismjs@npm:1.26.6"
   checksum: 10/37c056eb7a9130ef6548d7655af78ea575c8eaa9167ea2dd64d8719384b1af4a385ffe928aa4939da607ce276703a6787bdac8ecc79a373e2a73ddf6d75bc161
-  languageName: node
-  linkType: hard
-
-"@types/prop-types@npm:*":
-  version: 15.7.15
-  resolution: "@types/prop-types@npm:15.7.15"
-  checksum: 10/31aa2f59b28f24da6fb4f1d70807dae2aedfce090ec63eaf9ea01727a9533ef6eaf017de5bff99fbccad7d1c9e644f52c6c2ba30869465dd22b1a7221c29f356
   languageName: node
   linkType: hard
 
@@ -5083,13 +5076,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.31":
-  version: 18.3.31
-  resolution: "@types/react@npm:18.3.31"
+"@types/react@npm:^19.2.17":
+  version: 19.2.17
+  resolution: "@types/react@npm:19.2.17"
   dependencies:
-    "@types/prop-types": "npm:*"
     csstype: "npm:^3.2.2"
-  checksum: 10/0a5d73b1ba3ce73273b28cc50da78d520b1a8d4253075820dc5cf6c9e286ff6cb339b56bd613d05885fec214fbecd8137bddcbdb475612fdcc46e061d88f00fc
+  checksum: 10/8debb092bd0bb9c99176a31824c7587c27c775a6526b60060e7b9e8dc2af53aee2ffadc7a1e3845953792437db5699d34a9054e198c9d4e54a74728ff47c6725
   languageName: node
   linkType: hard
 
@@ -13489,8 +13481,8 @@ __metadata:
     "@tailwindcss/typography": "npm:^0.5.20"
     "@tinacms/cli": "npm:^2.4.4"
     "@types/js-cookie": "npm:^3.0.6"
-    "@types/node": "npm:^22.19.20"
-    "@types/react": "npm:^18.3.31"
+    "@types/node": "npm:^25.9.2"
+    "@types/react": "npm:^19.2.17"
     "@types/styled-components": "npm:^5.1.36"
     "@typescript-eslint/eslint-plugin": "npm:^8.60.1"
     "@typescript-eslint/parser": "npm:^8.60.1"
@@ -13904,10 +13896,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.21.0":
-  version: 6.21.0
-  resolution: "undici-types@npm:6.21.0"
-  checksum: 10/ec8f41aa4359d50f9b59fa61fe3efce3477cc681908c8f84354d8567bb3701fafdddf36ef6bff307024d3feb42c837cf6f670314ba37fc8145e219560e473d14
+"undici-types@npm:>=7.24.0 <7.24.7":
+  version: 7.24.6
+  resolution: "undici-types@npm:7.24.6"
+  checksum: 10/defc9538b952e3c15b8526596c591f7c1f0c7605ad27a2b7feddbea7ef2e3003f3eda2cdb051a3cb1a2185e3893100fd9cb925c799db99d48131ea63b5233d10
   languageName: node
   linkType: hard
 
