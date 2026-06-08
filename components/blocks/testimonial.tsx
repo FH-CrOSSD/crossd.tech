@@ -32,7 +32,7 @@ export const Testimonial = ({ data, parentField = "" }) => {
               &rdquo;
             </span>
           </div>
-          <div className={`my-8 flex-grow-0`}>
+          <div className={`my-8 grow-0`}>
             <span
               className={`block mx-auto h-0.5 w-1/6 ${
                 data.color === "primary"

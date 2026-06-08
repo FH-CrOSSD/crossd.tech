@@ -31,7 +31,7 @@ export const Posts = ({ data }) => {
           key={post._sys.filename}
           href={`/post/` + post._sys.filename}
           passHref
-          className="group block px-8 py-10 mb-8 last:mb-0 bg-gray-50 bg-gradient-to-br from-gray-50 to-gray-100 dark:bg-gray-700 dark:from-gray-800 dark:to-gray-700 rounded-md shadow-sm transition-all duration-150 ease-out hover:shadow-md hover:to-gray-50 dark:hover:to-gray-600">
+          className="group block px-8 py-10 mb-8 last:mb-0 bg-gray-50 bg-linear-to-br from-gray-50 to-gray-100 dark:bg-gray-700 dark:from-gray-800 dark:to-gray-700 rounded-md shadow-sm transition-all duration-150 ease-out hover:shadow-md hover:to-gray-50 dark:hover:to-gray-600">
 
           <h3
             className={`text-gray-900 dark:text-white text-3xl font-semibold title-font mb-5 transition-all duration-150 ease-out ${
@@ -47,7 +47,7 @@ export const Posts = ({ data }) => {
             <TinaMarkdown content={post._values.excerpt} />
           </div>
           <div className="flex items-center -mb-2">
-            <div className="flex-shrink-0 mr-2">
+            <div className="shrink-0 mr-2">
               <img
                 className="h-10 w-10 object-cover rounded-full shadow-sm"
                 src={post?.author?.avatar}

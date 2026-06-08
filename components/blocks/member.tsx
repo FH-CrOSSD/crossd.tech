@@ -42,7 +42,7 @@ export const Member = ({ data, parentField }) => {
           {data.name && (
             <h2
               data-tinafield={`${parentField}.name`}
-              className={`relative inline-block text-2xl mb-2 font-extrabold tracking-wide title-font bg-clip-text text-transparent bg-gradient-to-r  ${data.color === "primary"
+              className={`relative inline-block text-2xl mb-2 font-extrabold tracking-wide title-font bg-clip-text text-transparent bg-linear-to-r  ${data.color === "primary"
                 ? `from-white to-gray-100`
                 : headlineColorClasses[theme.color]
                 }`}

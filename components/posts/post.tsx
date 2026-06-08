@@ -142,7 +142,7 @@ export const Post = (props) => {
           className={`w-full relative	mb-8 text-6xl font-extrabold tracking-normal text-center title-font`}
         >
           <span
-            className={`bg-clip-text text-transparent bg-gradient-to-r ${
+            className={`bg-clip-text text-transparent bg-linear-to-r ${
               titleColorClasses[theme.color]
             }`}
           >
@@ -155,7 +155,7 @@ export const Post = (props) => {
         >
           {props.author && (
             <>
-              <div className="flex-shrink-0 mr-4">
+              <div className="shrink-0 mr-4">
                 <img
                   className="h-14 w-14 object-cover rounded-full shadow-sm"
                   src={props.author.avatar}
