@@ -1,20 +1,17 @@
-module.exports = {
-  output: 'export',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
   trailingSlash: false,
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/i,
-      issuer: /\.[jt]sx?$/,
-      use: ["@svgr/webpack"],
-    });
-    config.watchOptions= {
-      ignored: /node_modules/,
-      aggregateTimeout: 200,
-      poll: 1000,
-  };
 
-    return config;
+  turbopack: {
+    rules: {
+      "*.svg": {
+        loaders: ["@svgr/webpack"],
+        as: "*.js",
+      },
+    },
   },
+
   async rewrites() {
     return [
       {
@@ -27,7 +24,6 @@ module.exports = {
       },
     ];
   },
-  // exportPathMap: async function (defaultPathMap) {
-  //   return { '/': { page: '/index' } };
-  // }
 };
+
+module.exports = nextConfig;
